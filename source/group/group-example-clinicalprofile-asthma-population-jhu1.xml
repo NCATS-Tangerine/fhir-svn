@@ -2,7 +2,7 @@
     <id value="asthma-population-jhu1"/>
     <text>
         <status value="additional"/>
-        <div xmlns="http:/>/www.w3.org/1999/html">
+        <div xmlns="http://www.w3.org/1999/xhtml">
             <p>Patients having a diagnosis of asthma recorded on the problem list or as an encounter diagnosis.</p>
             <p>All patients seen as either outpatients or inpatients at Johns Hopkins Hospital, JHCP, and Bayview between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an encounter diagnosis.</p>
         </div>
@@ -22,10 +22,10 @@
           <valueCodeableConcept>
               <text value="asthma"/>
           </valueCodeableConcept>
+         <exclude value="false"/>
          <period>
              <start value="2016-03-01"/>
              <end value="2017-03-01"/>
          </period>
-         <exclude value="false"/>
  </characteristic>
 </Group>

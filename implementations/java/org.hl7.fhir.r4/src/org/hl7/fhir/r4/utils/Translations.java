@@ -55,7 +55,15 @@ public class Translations {
   }
 
   public boolean hasTranslation(String id) {
+    if(!messages.containsKey(id)) {
+      System.out.println("HERE!");
+      for(String m : messages.keySet()) {
+        System.out.println(m);
+
+      }
+    }
     return messages.containsKey(id);
+
   }
 
   /**
