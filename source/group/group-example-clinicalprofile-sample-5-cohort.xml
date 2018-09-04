@@ -1,0 +1,56 @@
+<Group xmlns="http://hl7.org/fhir">
+    <id value="asthma-sample-5-cohort"/>
+    <text>
+        <status value="additional"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>Asthma patients aged 35-64, black or african american, male</p>
+        </div>
+    </text>
+    <identifier>
+        <system value="http://ncats.org/clinicalprofile/"/>
+        <value value="sample-5"/>
+    </identifier>
+    <type value="person"/>
+    <actual value="false"/>
+    <name value="Asthma patients aged 35-64, black or african american, male"/>
+    <characteristic>
+        <code>
+            <text value="ageGroup"/>
+        </code>
+       <valueRange>
+            <low>
+                <value value="35"/>
+            </low>
+            <high>
+                <value value="64"/>
+            </high>
+        </valueRange>
+        <exclude value="false"/>
+    </characteristic>
+    <characteristic>
+        <code>
+            <text value="race"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="urn:oid:2.16.840.1.114222.4.11.836"/>
+                <code value="2054-5"/>
+                <display value="Black or African American"/>
+            </coding>
+        </valueCodeableConcept>
+        <exclude value="false"/>
+    </characteristic>
+    <characteristic>
+        <code>
+            <text value="gender"/>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://hl7.org/fhir/administrative-gender"/>
+                <code value="male"/>
+                <display value="Male"/>
+            </coding>
+        </valueCodeableConcept>
+        <exclude value="false"/>
+    </characteristic>
+</Group>
