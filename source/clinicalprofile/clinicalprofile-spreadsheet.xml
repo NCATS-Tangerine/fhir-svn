@@ -3,7 +3,7 @@
   <Author>Grahame</Author>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2018-09-03T19:37:13Z</LastSaved>
+  <LastSaved>2018-09-04T13:27:47Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
@@ -1088,7 +1088,7 @@
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:Height="16">
+   <Row ss:Height="32">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.cohort</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">1..1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1103,7 +1103,7 @@
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">The cohort that this profile represents</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">The cohort within the population that this profile represents</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s92"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1141,7 +1141,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">350;200</Data></Cell>
+    <Cell><Data ss:Type="String">350;0</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.lab.code</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1185,7 +1185,7 @@
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Number of samples</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">Total number of lab tests</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s92"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1277,7 +1277,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">630;40</Data></Cell>
+    <Cell><Data ss:Type="String">680;0</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.lab.scalarDistribution.units</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1467,7 +1467,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">870;90</Data></Cell>
+    <Cell><Data ss:Type="String">920;0</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.lab.scalarDistribution.decile.nth</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1657,6 +1657,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">920;70</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.lab.scalarDistribution.coorelatedLabs.topn</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1738,6 +1739,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">820;200</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.lab.scalarDistribution.coorelatedLabs.entry.labcode</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2146,7 +2148,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:Height="16">
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.medication.coorelatedLabs.code</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.medication.coorelatedLabs.entry.code</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">1..*</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2252,7 +2254,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">330;300</Data></Cell>
+    <Cell><Data ss:Type="String">330;120</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.diagnosis.code</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2334,6 +2336,7 @@
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">330;300</Data></Cell>
    </Row>
    <Row ss:Height="16">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ClinicalProfile.procedure.code</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4701,9 +4704,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>7</TopRowBottomPane>
+   <TopRowBottomPane>23</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>7</LeftColumnRightPane>
+   <LeftColumnRightPane>19</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    
    <ProtectObjects>False</ProtectObjects>
