@@ -1,0 +1,87 @@
+<ClinicalProfile xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://hl7.org/fhir ../../publish/clinicalprofile.xsd">
+    <id value="jhu-asthma-5-meds"/>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>Selected medications for male black or african american patients aged 35-64 seen as either outpatients
+                or inpatients at Johns Hopkins Hospital, JHCP, and Bayview
+                between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an
+                encounter diagnosis.
+            </p>
+        </div>
+    </text>
+    <identifier>
+        <value value="urn:uuid:BD5EDAD0-C777-9185-7BB7094FA4A6353C"/>
+    </identifier>
+    <status value="draft"/>
+    <population>
+        <reference value="Group/asthma-population-jhu1"/>
+        <display value="Outpatients or inpatients at Johns Hopkins Hospital, JHCP, and Bayview between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an encounter diagnosis."/>
+    </population>
+    <cohort>
+        <reference value="Group/asthma-sample-5-cohort-jhu1"/>
+        <display value="Black or african american males aged 35-64"/>
+    </cohort>
+    <date value="2018-09-03T00:27:17Z"/>
+    <source>
+        <value value="http://ictrweb.johnshopkins.edu/ictr/synthetic/includes/clinical_profiles.cfm"/>
+    </source>
+    <reporter>
+        <reference value="Organization/JHM"/>
+        <type value="Organization"/>
+        <display value="Johns Hopkins School of Medicine"/>
+    </reporter>
+    <medication>
+        <medicationCodeableConcept>
+            <coding>
+                <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                <code value="435"/>
+                <display value="ALBUTEROL SULFATE HFA 90 MCG/ACTUATION AEROSOL INHALER"/>
+            </coding>
+        </medicationCodeableConcept>
+        <dosage>
+            <text value="2 puff"/>
+        </dosage>
+        <fractionOfSubjects value="0.3484"/>
+        <coorelatedLabs>
+            <topn value="10"/>
+            <entry>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="2345-7"/>
+                        <display value="Glucose [Mass/volume] in Serum or Plasma"/>
+                    </coding>
+                </code>
+                <fractionOfSubjects value="0.2314"/>
+                <deviationRelativeValue value="0.72"/>
+            </entry>
+            <entry>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="39789-3"/>
+                        <display value="Potassium [Moles/volume] in Venous blood"/>
+                    </coding>
+                </code>
+                <fractionOfSubjects value="0.2714"/>
+                <deviationRelativeValue value="0.69"/>
+            </entry>
+        </coorelatedLabs>
+    </medication>
+    <medication>
+        <medicationCodeableConcept>
+            <coding>
+                <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                <code value="41126"/>
+                <display value="FLUTICASONE 50 MCG/ACTUATION NASAL SPRAY,SUSPENSION"/>
+            </coding>
+        </medicationCodeableConcept>
+        <dosage>
+            <text value="2 spray"/>
+        </dosage>
+        <fractionOfSubjects value="0.1175"/>
+    </medication>
+</ClinicalProfile>

@@ -306,6 +306,7 @@ public class FhirTurtleGenerator {
                 FHIRResource baseDef;
                 if(ed.getTypes().isEmpty()) {
                     predicateResource = fact.fhir_objectProperty(predicateName);
+                    System.out.println("=====> "+predicateName);
                     String targetClassName = mapComponentName(baseResourceName, ed.getDeclaredTypeName());
                     baseDef = fact.fhir_class(targetClassName, innerIsBackbone? "BackboneElement": "Element")
                             .addDefinition(ed.getDefinition());
@@ -349,6 +350,9 @@ public class FhirTurtleGenerator {
     }
 
     private String mapComponentName(String baseResourceName, String componentName) {
+       if(null == componentName)
+           System.out.println("-----"+baseResourceName+'-'+componentName+'-');
+
         return componentName.startsWith(baseResourceName)? componentName : baseResourceName + "." + componentName;
     }
 

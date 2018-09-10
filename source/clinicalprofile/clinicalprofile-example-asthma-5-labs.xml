@@ -3,11 +3,12 @@
                  xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/clinicalprofile.xsd">
     <!-- from Resource: id, meta, implicitRules, and language -->
     <!-- from DomainResource: text, contained, extension, and modifierExtension -->
-    <id value="sample-profile-5"/>
+    <id value="jhu-asthma-5-labs"/>
     <text>
         <status value="generated"/>
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>All patients seen as either outpatients or inpatients at Johns Hopkins Hospital, JHCP, and Bayview
+            <p>Selected laboratory tests for male black or african american patients aged 35-64 seen as either outpatients
+                or inpatients at Johns Hopkins Hospital, JHCP, and Bayview
                 between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an
                 encounter diagnosis.
             </p>
@@ -17,12 +18,12 @@
         <value value="urn:uuid:BD5EDAD0-C777-9185-7BB7094FA4A6352B"/>
     </identifier>
     <status value="draft"/><!-- 1..1 complete | draft | error -->
-    <definition>
-        <reference value="Group/asthma-sample-5-cohort"/>
-    </definition>
     <population>
         <reference value="Group/asthma-population-jhu1"/>
     </population>
+    <cohort>
+        <reference value="Group/asthma-sample-5-cohort-jhu1"/>
+    </cohort>
     <date value="2018-09-03T00:27:17Z"/><!-- 0..1 When the profile was generated -->
     <source>
         <value value="http://ictrweb.johnshopkins.edu/ictr/synthetic/includes/clinical_profiles.cfm"/>
@@ -32,9 +33,6 @@
         <type value="Organization"/>
         <display value="Johns Hopkins School of Medicine"/>
     </reporter>
-    <cohort>
-        <reference value="Group/asthma-sample-5-cohort-jhu1"/>
-    </cohort>
     <lab>  <!-- 0..* Laboratory profile -->
         <code>
             <coding>
@@ -94,6 +92,29 @@
             <normalizedLow value="74"/>
             <fractionAboveNormal value="0.45"/>
             <fractionBelowNormal value="0.03"/>
+            <coorelatedLabs>
+                <topn value="20"/>
+                <entry>
+                    <labcode>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="718-7"/>
+                            <display value="HGB"/>
+                        </coding>
+                    </labcode>
+                    <coefficient value="0.9629764559786929"/>
+                </entry>
+                  <entry>
+                    <labcode>
+                        <coding>
+                            <system value="http://loinc.org"/>
+                            <code value="787-2"/>
+                            <display value="MCV"/>
+                        </coding>
+                    </labcode>
+                    <coefficient value="0.924175640171802"/>
+                </entry>
+            </coorelatedLabs>
         </scalarDistribution>
     </lab>
 </ClinicalProfile>
