@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalProfile xmlns="http://hl7.org/fhir">
+	<!--  from Resource: id, meta, implicitRules, and language  -->
+	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
+	<id value="jhu-asthma-profile-12-labs"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>Selected laboratory tests for Male,Female, White or Caucasian patients aged 15-19 seen as either outpatients or inpatients at Johns Hopkins Hospital, JHCP, and Bayview between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an encounter diagnosis.
+			</p>
+		</div>
+	</text>
+	<identifier>
+		<value value="urn:uuid:E322085D-9382-BAF2-37F081B1C251A757"/>
+	</identifier>
+	<status value="draft"/><!--  1..1 complete | draft | error  -->
+	<population>
+		<reference value="Group/asthma-population-jhu1"/>
+	</population>
+	<cohort>
+		<reference value="Group/asthma-sample-12-cohort-jhu1"/>
+	</cohort>
+	<date value="2018-09-11T14:36:00Z"/><!--  0..1 When the profile was generated  -->
+	<source>
+		<value value="http://ictrweb.johnshopkins.edu/ictr/synthetic/includes/clinical_profiles.cfm"/>
+	</source>
+	<reporter>
+		<reference value="Organization/JHM"/>
+		<type value="Organization"/>
+		<display value="Johns Hopkins School of Medicine"/>
+	</reporter>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="777-3"/>
+				<display value="Platelets [#/volume] in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1996"/>
+		<frequencyPerYear value="0.6019"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="x10E3/uL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="x10E3/uL"/>
+			</units>
+			<min value="3"/><!--  1..1 Minimum value  -->
+			<max value="1119"/><!--  1..1 Maximum value  -->
+			<mean value="239.71"/><!--  1..1 Mean  -->
+			<median value="238"/><!--  1..1 Median  -->
+			<stdDev value="121.68"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="84"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="163"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="194"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="218"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="238"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="262"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="285"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="315"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="360"/>
+			</decile>
+			<normalizedHigh value="396"/>
+			<normalizedLow value="140"/>
+			<fractionAboveNormal value="0.05"/>
+			<fractionBelowNormal value="0.16"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="4544-3"/>
+				<display value="Hematocrit [Volume Fraction] of Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1985"/>
+		<frequencyPerYear value="0.5986"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="13.20"/><!--  1..1 Minimum value  -->
+			<max value="53.90"/><!--  1..1 Maximum value  -->
+			<mean value="36.98"/><!--  1..1 Mean  -->
+			<median value="38.15"/><!--  1..1 Median  -->
+			<stdDev value="6.92"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="26.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="31"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="34.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="36.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="38.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="39.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="41"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="42.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="45"/>
+			</decile>
+			<normalizedHigh value="46.6"/>
+			<normalizedLow value="34.0"/>
+			<fractionAboveNormal value="0.06"/>
+			<fractionBelowNormal value="0.29"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="718-7"/>
+				<display value="Hemoglobin [Mass/volume] in Blood"/>
+			</coding>
+		</code>
+		<count value="1983"/>
+		<frequencyPerYear value="0.5980"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="g/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="g/dL"/>
+			</units>
+			<min value="4.60"/><!--  1..1 Minimum value  -->
+			<max value="18.70"/><!--  1..1 Maximum value  -->
+			<mean value="12.31"/><!--  1..1 Mean  -->
+			<median value="12.60"/><!--  1..1 Median  -->
+			<stdDev value="2.36"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="8.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="10.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="11.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="12"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="12.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="13.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="13.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="14.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="15.20"/>
+			</decile>
+			<normalizedHigh value="16.0"/>
+			<normalizedLow value="12.0"/>
+			<fractionAboveNormal value="0.04"/>
+			<fractionBelowNormal value="0.38"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="33256-9"/>
+				<display value="Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1667"/>
+		<frequencyPerYear value="0.5027"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3016"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="K/cu mm"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="K/cu mm"/>
+			</units>
+			<min value="0.05"/><!--  1..1 Minimum value  -->
+			<max value="108.76"/><!--  1..1 Maximum value  -->
+			<mean value="9.15"/><!--  1..1 Mean  -->
+			<median value="7.47"/><!--  1..1 Median  -->
+			<stdDev value="7.93"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="3.99"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="5.26"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="5.98"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="6.68"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="7.47"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="8.36"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="9.49"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="10.97"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="14.22"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="6690-2"/>
+				<display value="Leukocytes [#/volume] in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="306"/>
+		<frequencyPerYear value="0.0923"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.1393"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="x10E3/uL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="x10E3/uL"/>
+			</units>
+			<min value="1.90"/><!--  1..1 Minimum value  -->
+			<max value="17.50"/><!--  1..1 Maximum value  -->
+			<mean value="7.10"/><!--  1..1 Mean  -->
+			<median value="6.60"/><!--  1..1 Median  -->
+			<stdDev value="2.26"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="4.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="5.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="5.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="6.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="6.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="7.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="9"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="10.10"/>
+			</decile>
+			<normalizedHigh value="10.8"/>
+			<normalizedLow value="3.4"/>
+			<fractionAboveNormal value="0.07"/>
+			<fractionBelowNormal value="0.01"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="787-2"/>
+				<display value="Erythrocyte mean corpuscular volume [Entitic volume] by Automated count"/>
+			</coding>
+		</code>
+		<count value="1981"/>
+		<frequencyPerYear value="0.5974"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="fL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="fL"/>
+			</units>
+			<min value="60.80"/><!--  1..1 Minimum value  -->
+			<max value="107.70"/><!--  1..1 Maximum value  -->
+			<mean value="87.09"/><!--  1..1 Mean  -->
+			<median value="87.10"/><!--  1..1 Median  -->
+			<stdDev value="5.02"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="81.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="83.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="85"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="86.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="87.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="88.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="89.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="91"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="93.30"/>
+			</decile>
+			<normalizedHigh value="97"/>
+			<normalizedLow value="79"/>
+			<fractionAboveNormal value="0.02"/>
+			<fractionBelowNormal value="0.05"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="789-8"/>
+				<display value="Erythrocytes [#/volume] in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1981"/>
+		<frequencyPerYear value="0.5974"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="x10E6/uL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="x10E6/uL"/>
+			</units>
+			<min value="1.55"/><!--  1..1 Minimum value  -->
+			<max value="6.64"/><!--  1..1 Maximum value  -->
+			<mean value="4.26"/><!--  1..1 Mean  -->
+			<median value="4.39"/><!--  1..1 Median  -->
+			<stdDev value="0.82"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="3.05"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="3.54"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="3.94"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="4.18"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="4.39"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="4.55"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="4.72"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="4.92"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="5.22"/>
+			</decile>
+			<normalizedHigh value="5.28"/>
+			<normalizedLow value="3.77"/>
+			<fractionAboveNormal value="0.09"/>
+			<fractionBelowNormal value="0.25"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="786-4"/>
+				<display value="Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume] by Automated count"/>
+			</coding>
+		</code>
+		<count value="1980"/>
+		<frequencyPerYear value="0.5971"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="g/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="g/dL"/>
+			</units>
+			<min value="28.10"/><!--  1..1 Minimum value  -->
+			<max value="37.50"/><!--  1..1 Maximum value  -->
+			<mean value="33.30"/><!--  1..1 Mean  -->
+			<median value="33.30"/><!--  1..1 Median  -->
+			<stdDev value="1.27"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="31.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="32.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="32.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="33"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="33.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="33.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="34"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="34.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="34.90"/>
+			</decile>
+			<normalizedHigh value="35.7"/>
+			<normalizedLow value="31.5"/>
+			<fractionAboveNormal value="0.03"/>
+			<fractionBelowNormal value="0.07"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2345-7"/>
+				<display value="Glucose [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1890"/>
+		<frequencyPerYear value="0.5700"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3528"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="24"/><!--  1..1 Minimum value  -->
+			<max value="582"/><!--  1..1 Maximum value  -->
+			<mean value="100.21"/><!--  1..1 Mean  -->
+			<median value="93"/><!--  1..1 Median  -->
+			<stdDev value="30.97"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="77"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="82"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="86"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="89"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="93"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="98"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="104"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="113"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="129"/>
+			</decile>
+			<normalizedHigh value="106"/>
+			<normalizedLow value="74"/>
+			<fractionAboveNormal value="0.27"/>
+			<fractionBelowNormal value="0.07"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2339-0"/>
+				<display value="Glucose [Mass/volume] in Blood"/>
+			</coding>
+		</code>
+		<count value="48"/>
+		<frequencyPerYear value="0.0145"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0181"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="48"/><!--  1..1 Minimum value  -->
+			<max value="167"/><!--  1..1 Maximum value  -->
+			<mean value="101.29"/><!--  1..1 Mean  -->
+			<median value="98"/><!--  1..1 Median  -->
+			<stdDev value="21.02"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="88"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="93"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="98"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="102"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="107"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="110"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="126"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="14749-6"/>
+				<display value="Glucose [Moles/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="14"/>
+		<frequencyPerYear value="0.0042"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0060"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="78"/><!--  1..1 Minimum value  -->
+			<max value="126"/><!--  1..1 Maximum value  -->
+			<mean value="96.79"/><!--  1..1 Mean  -->
+			<median value="94"/><!--  1..1 Median  -->
+			<stdDev value="12.58"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="78"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="87"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="87"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="93"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="94"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="95"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="100"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="102"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="115"/>
+			</decile>
+			<normalizedHigh value="99"/>
+			<normalizedLow value="60"/>
+			<fractionAboveNormal value="0.36"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="785-6"/>
+				<display value="Erythrocyte mean corpuscular hemoglobin [Entitic mass] by Automated count"/>
+			</coding>
+		</code>
+		<count value="1975"/>
+		<frequencyPerYear value="0.5956"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="pg"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="pg"/>
+			</units>
+			<min value="17.10"/><!--  1..1 Minimum value  -->
+			<max value="36.20"/><!--  1..1 Maximum value  -->
+			<mean value="29.01"/><!--  1..1 Mean  -->
+			<median value="29.20"/><!--  1..1 Median  -->
+			<stdDev value="2.06"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="26.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="27.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="28.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="28.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="29.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="29.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="30.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="31.30"/>
+			</decile>
+			<normalizedHigh value="33.0"/>
+			<normalizedLow value="26.6"/>
+			<fractionAboveNormal value="0.01"/>
+			<fractionBelowNormal value="0.10"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="788-0"/>
+				<display value="Erythrocyte distribution width [Ratio] by Automated count"/>
+			</coding>
+		</code>
+		<count value="1965"/>
+		<frequencyPerYear value="0.5926"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.4077"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="10.80"/><!--  1..1 Minimum value  -->
+			<max value="22.90"/><!--  1..1 Maximum value  -->
+			<mean value="13.71"/><!--  1..1 Mean  -->
+			<median value="13.20"/><!--  1..1 Median  -->
+			<stdDev value="1.71"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="12.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="12.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="12.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="13.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="13.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="14"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="14.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="15.90"/>
+			</decile>
+			<normalizedHigh value="15.4"/>
+			<normalizedLow value="12.3"/>
+			<fractionAboveNormal value="0.13"/>
+			<fractionBelowNormal value="0.14"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="17861-6"/>
+				<display value="Calcium [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1934"/>
+		<frequencyPerYear value="0.5832"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3619"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="6"/><!--  1..1 Minimum value  -->
+			<max value="13.60"/><!--  1..1 Maximum value  -->
+			<mean value="9.05"/><!--  1..1 Mean  -->
+			<median value="9.20"/><!--  1..1 Median  -->
+			<stdDev value="0.73"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="8.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="8.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="8.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="9"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="9.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="9.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="9.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="9.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="9.80"/>
+			</decile>
+			<normalizedHigh value="10.5"/>
+			<normalizedLow value="9"/>
+			<fractionAboveNormal value="0.01"/>
+			<fractionBelowNormal value="0.37"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2000-8"/>
+				<display value="Calcium [Moles/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="14"/>
+		<frequencyPerYear value="0.0042"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0060"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="8.70"/><!--  1..1 Minimum value  -->
+			<max value="10.60"/><!--  1..1 Maximum value  -->
+			<mean value="9.47"/><!--  1..1 Mean  -->
+			<median value="9.50"/><!--  1..1 Median  -->
+			<stdDev value="0.56"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="8.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="8.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="8.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="9.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="9.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="9.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="9.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="9.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="10"/>
+			</decile>
+			<normalizedHigh value="10.4"/>
+			<normalizedLow value="8.5"/>
+			<fractionAboveNormal value="0.07"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="39789-3"/>
+				<display value="Potassium [Moles/volume] in Venous blood"/>
+			</coding>
+		</code>
+		<count value="1604"/>
+		<frequencyPerYear value="0.4837"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.2654"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmol/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmol/L"/>
+			</units>
+			<min value="1.60"/><!--  1..1 Minimum value  -->
+			<max value="6.40"/><!--  1..1 Maximum value  -->
+			<mean value="4.15"/><!--  1..1 Mean  -->
+			<median value="4.20"/><!--  1..1 Median  -->
+			<stdDev value="0.54"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="3.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="3.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="3.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="4.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="4.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="4.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="4.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="4.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="4.80"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2823-3"/>
+				<display value="Potassium [Moles/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="284"/>
+		<frequencyPerYear value="0.0856"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.1285"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmol/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmol/L"/>
+			</units>
+			<min value="3"/><!--  1..1 Minimum value  -->
+			<max value="5.50"/><!--  1..1 Maximum value  -->
+			<mean value="4.29"/><!--  1..1 Mean  -->
+			<median value="4.30"/><!--  1..1 Median  -->
+			<stdDev value="0.33"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="3.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="4"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="4.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="4.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="4.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="4.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="4.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="4.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="4.80"/>
+			</decile>
+			<normalizedHigh value="5.2"/>
+			<normalizedLow value="3.5"/>
+			<fractionAboveNormal value="0.00"/>
+			<fractionBelowNormal value="0.00"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2951-2"/>
+				<display value="Sodium [Moles/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1937"/>
+		<frequencyPerYear value="0.5841"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3643"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmol/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmol/L"/>
+			</units>
+			<min value="126"/><!--  1..1 Minimum value  -->
+			<max value="156"/><!--  1..1 Maximum value  -->
+			<mean value="139.87"/><!--  1..1 Mean  -->
+			<median value="140"/><!--  1..1 Median  -->
+			<stdDev value="3.05"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="136"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="138"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="139"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="139"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="140"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="141"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="141"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="142"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="143"/>
+			</decile>
+			<normalizedHigh value="145"/>
+			<normalizedLow value="136"/>
+			<fractionAboveNormal value="0.03"/>
+			<fractionBelowNormal value="0.06"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="12962-7"/>
+				<display value="Urea nitrogen [Mass/volume] in Venous blood"/>
+			</coding>
+		</code>
+		<count value="1646"/>
+		<frequencyPerYear value="0.4964"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.2690"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="1"/><!--  1..1 Minimum value  -->
+			<max value="86"/><!--  1..1 Maximum value  -->
+			<mean value="12.66"/><!--  1..1 Mean  -->
+			<median value="11"/><!--  1..1 Median  -->
+			<stdDev value="8.97"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="6"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="9"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="11"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="12"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="15"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="19"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="3094-0"/>
+				<display value="Urea nitrogen [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="284"/>
+		<frequencyPerYear value="0.0856"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.1285"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="3"/><!--  1..1 Minimum value  -->
+			<max value="79"/><!--  1..1 Maximum value  -->
+			<mean value="12.32"/><!--  1..1 Mean  -->
+			<median value="12"/><!--  1..1 Median  -->
+			<stdDev value="5.32"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="9"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="11"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="12"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="14"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="15"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="17"/>
+			</decile>
+			<normalizedHigh value="25"/>
+			<normalizedLow value="7"/>
+			<fractionAboveNormal value="0.00"/>
+			<fractionBelowNormal value="0.04"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="48642-3"/>
+				<display value="Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"/>
+			</coding>
+		</code>
+		<count value="130"/>
+		<frequencyPerYear value="0.0392"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0277"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mL/min/1.73 sqm"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mL/min/1.73 sqm"/>
+			</units>
+			<min value="5"/><!--  1..1 Minimum value  -->
+			<max value="147"/><!--  1..1 Maximum value  -->
+			<mean value="77.18"/><!--  1..1 Mean  -->
+			<median value="59"/><!--  1..1 Median  -->
+			<stdDev value="43.08"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="32"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="38"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="52"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="59"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="100"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="117"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="128"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="131"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="33914-3"/>
+				<display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"/>
+			</coding>
+		</code>
+		<count value="56"/>
+		<frequencyPerYear value="0.0169"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0296"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mL/min/1.73m2"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mL/min/1.73m2"/>
+			</units>
+			<min value="75"/><!--  1..1 Minimum value  -->
+			<max value="166"/><!--  1..1 Maximum value  -->
+			<mean value="110.86"/><!--  1..1 Mean  -->
+			<median value="109"/><!--  1..1 Median  -->
+			<stdDev value="18.54"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="86"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="92"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="100"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="105"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="109"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="118"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="124"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="127"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="130"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="62238-1"/>
+				<display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (CKD-EPI)"/>
+			</coding>
+		</code>
+		<count value="11"/>
+		<frequencyPerYear value="0.0033"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0066"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mL/min/1.73m2"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mL/min/1.73m2"/>
+			</units>
+			<min value="76"/><!--  1..1 Minimum value  -->
+			<max value="135"/><!--  1..1 Maximum value  -->
+			<mean value="114"/><!--  1..1 Mean  -->
+			<median value="112.50"/><!--  1..1 Median  -->
+			<stdDev value="17.08"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="76"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="100"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="104"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="108"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="115"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="122"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="124"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="128"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="132"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="48643-1"/>
+				<display value="Glomerular filtration rate/1.73 sq M predicted among blacks [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"/>
+			</coding>
+		</code>
+		<count value="169"/>
+		<frequencyPerYear value="0.0510"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0561"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mL/min/1.73m2"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mL/min/1.73m2"/>
+			</units>
+			<min value="7"/><!--  1..1 Minimum value  -->
+			<max value="192"/><!--  1..1 Maximum value  -->
+			<mean value="105.14"/><!--  1..1 Mean  -->
+			<median value="120.50"/><!--  1..1 Median  -->
+			<stdDev value="46.89"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="36"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="41"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="89"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="107"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="121"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="133"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="143"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="148"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="151"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="62238-1"/>
+				<display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (CKD-EPI)"/>
+			</coding>
+		</code>
+		<count value="11"/>
+		<frequencyPerYear value="0.0033"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0066"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mL/min/1.73m2"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mL/min/1.73m2"/>
+			</units>
+			<min value="88"/><!--  1..1 Minimum value  -->
+			<max value="156"/><!--  1..1 Maximum value  -->
+			<mean value="131.45"/><!--  1..1 Mean  -->
+			<median value="129.50"/><!--  1..1 Median  -->
+			<stdDev value="19.63"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="88"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="115"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="120"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="125"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="133"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="141"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="143"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="147"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="152"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="1920-8"/>
+				<display value="Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1495"/>
+		<frequencyPerYear value="0.4508"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3323"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="IU/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="IU/L"/>
+			</units>
+			<min value="6"/><!--  1..1 Minimum value  -->
+			<max value="1901"/><!--  1..1 Maximum value  -->
+			<mean value="31.57"/><!--  1..1 Mean  -->
+			<median value="19"/><!--  1..1 Median  -->
+			<stdDev value="65.94"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="14"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="16"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="18"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="19"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="22"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="25"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="32"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="49"/>
+			</decile>
+			<normalizedHigh value="40"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.14"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="1742-6"/>
+				<display value="Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1547"/>
+		<frequencyPerYear value="0.4665"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3384"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="U/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="U/L"/>
+			</units>
+			<min value="5"/><!--  1..1 Minimum value  -->
+			<max value="2097"/><!--  1..1 Maximum value  -->
+			<mean value="35.88"/><!--  1..1 Mean  -->
+			<median value="18"/><!--  1..1 Median  -->
+			<stdDev value="92.58"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="9"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="12"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="16"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="18"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="26"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="35"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="62"/>
+			</decile>
+			<normalizedHigh value="25"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.30"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="6768-6"/>
+				<display value="Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1546"/>
+		<frequencyPerYear value="0.4662"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3347"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="U/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="U/L"/>
+			</units>
+			<min value="19"/><!--  1..1 Minimum value  -->
+			<max value="1116"/><!--  1..1 Maximum value  -->
+			<mean value="102.56"/><!--  1..1 Mean  -->
+			<median value="87"/><!--  1..1 Median  -->
+			<stdDev value="77.79"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="53"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="63"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="72"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="87"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="95"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="105"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="122"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="158"/>
+			</decile>
+			<normalizedHigh value="120"/>
+			<normalizedLow value="30"/>
+			<fractionAboveNormal value="0.21"/>
+			<fractionBelowNormal value="0.01"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="1975-2"/>
+				<display value="Bilirubin.total [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="1355"/>
+		<frequencyPerYear value="0.4086"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3172"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="0.10"/><!--  1..1 Minimum value  -->
+			<max value="5.50"/><!--  1..1 Maximum value  -->
+			<mean value="0.57"/><!--  1..1 Mean  -->
+			<median value="0.40"/><!--  1..1 Median  -->
+			<stdDev value="0.53"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="0.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="0.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="0.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="0.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="0.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="0.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="1.10"/>
+			</decile>
+			<normalizedHigh value="1.2"/>
+			<normalizedLow value="0.2"/>
+			<fractionAboveNormal value="0.08"/>
+			<fractionBelowNormal value="0.00"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="713-8"/>
+				<display value="Eosinophils/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1269"/>
+		<frequencyPerYear value="0.3827"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.3112"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="22"/><!--  1..1 Maximum value  -->
+			<mean value="2.45"/><!--  1..1 Mean  -->
+			<median value="1.60"/><!--  1..1 Median  -->
+			<stdDev value="2.81"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="0.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="1.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="1.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="2.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="3.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="5.80"/>
+			</decile>
+			<normalizedHigh value="7"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.06"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="706-2"/>
+				<display value="Basophils/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1155"/>
+		<frequencyPerYear value="0.3483"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.2720"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="1.80"/><!--  1..1 Maximum value  -->
+			<mean value="0.51"/><!--  1..1 Mean  -->
+			<median value="0.50"/><!--  1..1 Median  -->
+			<stdDev value="0.31"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="0.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="0.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="0.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="0.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="0.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="0.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="1"/>
+			</decile>
+			<normalizedHigh value="1.0"/>
+			<normalizedLow value="0.0"/>
+			<fractionAboveNormal value="0.07"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="5905-5"/>
+				<display value="Monocytes/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="1084"/>
+		<frequencyPerYear value="0.3269"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.2388"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0.20"/><!--  1..1 Minimum value  -->
+			<max value="27.40"/><!--  1..1 Maximum value  -->
+			<mean value="8.04"/><!--  1..1 Mean  -->
+			<median value="7.50"/><!--  1..1 Median  -->
+			<stdDev value="3.51"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="4.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="5.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="6.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="7"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="7.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="8.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="9.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="11.90"/>
+			</decile>
+			<normalizedHigh value="12"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.10"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2777-1"/>
+				<display value="Phosphate [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="502"/>
+		<frequencyPerYear value="0.1514"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0350"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="1"/><!--  1..1 Minimum value  -->
+			<max value="8.40"/><!--  1..1 Maximum value  -->
+			<mean value="3.77"/><!--  1..1 Mean  -->
+			<median value="3.80"/><!--  1..1 Median  -->
+			<stdDev value="1.04"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="2.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="3"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="3.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="3.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="3.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="4"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="4.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="4.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="5.10"/>
+			</decile>
+			<normalizedHigh value="4.5"/>
+			<normalizedLow value="2.5"/>
+			<fractionAboveNormal value="0.21"/>
+			<fractionBelowNormal value="0.11"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="19123-9"/>
+				<display value="Magnesium [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="477"/>
+		<frequencyPerYear value="0.1438"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0458"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="1"/><!--  1..1 Minimum value  -->
+			<max value="3.30"/><!--  1..1 Maximum value  -->
+			<mean value="1.89"/><!--  1..1 Mean  -->
+			<median value="1.90"/><!--  1..1 Median  -->
+			<stdDev value="0.30"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="1.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="1.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="1.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="1.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="1.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="2.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="2.20"/>
+			</decile>
+			<normalizedHigh value="2.3"/>
+			<normalizedLow value="1.6"/>
+			<fractionAboveNormal value="0.06"/>
+			<fractionBelowNormal value="0.10"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2093-3"/>
+				<display value="Cholesterol [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="440"/>
+		<frequencyPerYear value="0.1327"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.2087"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="76"/><!--  1..1 Minimum value  -->
+			<max value="350"/><!--  1..1 Maximum value  -->
+			<mean value="163.87"/><!--  1..1 Mean  -->
+			<median value="162"/><!--  1..1 Median  -->
+			<stdDev value="36.82"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="119"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="132"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="143"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="152"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="162"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="170"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="180"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="191"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="212"/>
+			</decile>
+			<normalizedHigh value="199"/>
+			<normalizedLow value="100"/>
+			<fractionAboveNormal value="0.16"/>
+			<fractionBelowNormal value="0.01"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2571-8"/>
+				<display value="Triglyceride [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="436"/>
+		<frequencyPerYear value="0.1315"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.1936"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="32"/><!--  1..1 Minimum value  -->
+			<max value="788"/><!--  1..1 Maximum value  -->
+			<mean value="118.53"/><!--  1..1 Mean  -->
+			<median value="97"/><!--  1..1 Median  -->
+			<stdDev value="80.57"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="53"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="62"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="73"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="82"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="97"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="111"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="133"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="159"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="201"/>
+			</decile>
+			<normalizedHigh value="149"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.23"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="2085-9"/>
+				<display value="Cholesterol in HDL [Mass/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="409"/>
+		<frequencyPerYear value="0.1233"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.1936"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mg/dL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mg/dL"/>
+			</units>
+			<min value="17"/><!--  1..1 Minimum value  -->
+			<max value="111"/><!--  1..1 Maximum value  -->
+			<mean value="51.20"/><!--  1..1 Mean  -->
+			<median value="49"/><!--  1..1 Median  -->
+			<stdDev value="14.96"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="34"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="38"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="41"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="46"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="49"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="53"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="58"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="63"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="72"/>
+			</decile>
+			<normalizedHigh value="76"/>
+			<normalizedLow value="36"/>
+			<fractionAboveNormal value="0.05"/>
+			<fractionBelowNormal value="0.13"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="737-7"/>
+				<display value="Lymphocytes/100 leukocytes in Blood by Manual count"/>
+			</coding>
+		</code>
+		<count value="237"/>
+		<frequencyPerYear value="0.0715"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0229"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="97"/><!--  1..1 Maximum value  -->
+			<mean value="19.58"/><!--  1..1 Mean  -->
+			<median value="10"/><!--  1..1 Median  -->
+			<stdDev value="21.52"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="4"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="5"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="37"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="50"/>
+			</decile>
+			<normalizedHigh value="44"/>
+			<normalizedLow value="24"/>
+			<fractionAboveNormal value="0.14"/>
+			<fractionBelowNormal value="0.71"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="736-9"/>
+				<display value="Lymphocytes/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="12"/>
+		<frequencyPerYear value="0.0036"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="16.60"/><!--  1..1 Minimum value  -->
+			<max value="48.90"/><!--  1..1 Maximum value  -->
+			<mean value="32.83"/><!--  1..1 Mean  -->
+			<median value="33.10"/><!--  1..1 Median  -->
+			<stdDev value="10.38"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="16.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="21.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="24.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="26.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="33.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="34.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="34.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="44.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="45.50"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="744-3"/>
+				<display value="Monocytes/100 leukocytes in Blood by Manual count"/>
+			</coding>
+		</code>
+		<count value="231"/>
+		<frequencyPerYear value="0.0697"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0229"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="36"/><!--  1..1 Maximum value  -->
+			<mean value="8.10"/><!--  1..1 Mean  -->
+			<median value="6"/><!--  1..1 Median  -->
+			<stdDev value="7.14"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="3"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="5"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="6"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="8"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="13"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="18"/>
+			</decile>
+			<normalizedHigh value="12"/>
+			<normalizedLow value="1"/>
+			<fractionAboveNormal value="0.23"/>
+			<fractionBelowNormal value="0.11"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="5905-5"/>
+				<display value="Monocytes/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="12"/>
+		<frequencyPerYear value="0.0036"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="5.70"/><!--  1..1 Minimum value  -->
+			<max value="12"/><!--  1..1 Maximum value  -->
+			<mean value="8.08"/><!--  1..1 Mean  -->
+			<median value="7.50"/><!--  1..1 Median  -->
+			<stdDev value="1.87"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="5.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="5.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="7"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="7.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="7.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="8.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="8.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="9.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="10.30"/>
+			</decile>
+			<normalizedHigh value="12"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="714-6"/>
+				<display value="Eosinophils/100 leukocytes in Blood by Manual count"/>
+			</coding>
+		</code>
+		<count value="227"/>
+		<frequencyPerYear value="0.0685"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0229"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="29"/><!--  1..1 Maximum value  -->
+			<mean value="1.35"/><!--  1..1 Mean  -->
+			<median value="0"/><!--  1..1 Median  -->
+			<stdDev value="3.65"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="1"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="2"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="3"/>
+			</decile>
+			<normalizedHigh value="7"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.03"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="713-8"/>
+				<display value="Eosinophils/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="12"/>
+		<frequencyPerYear value="0.0036"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0.80"/><!--  1..1 Minimum value  -->
+			<max value="21.20"/><!--  1..1 Maximum value  -->
+			<mean value="4.33"/><!--  1..1 Mean  -->
+			<median value="1.70"/><!--  1..1 Median  -->
+			<stdDev value="5.70"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="1.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="1.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="1.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="2.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="3.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="5.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="7"/>
+			</decile>
+			<normalizedHigh value="7"/>
+			<normalizedLow value="0"/>
+			<fractionAboveNormal value="0.08"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="5964-2"/>
+				<display value="Prothrombin time (PT) in Blood by Coagulation assay"/>
+			</coding>
+		</code>
+		<count value="174"/>
+		<frequencyPerYear value="0.0525"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0446"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="Seconds"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="Seconds"/>
+			</units>
+			<min value="9.30"/><!--  1..1 Minimum value  -->
+			<max value="28.60"/><!--  1..1 Maximum value  -->
+			<mean value="12.35"/><!--  1..1 Mean  -->
+			<median value="11.40"/><!--  1..1 Median  -->
+			<stdDev value="3.02"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="10.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="10.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="10.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="11.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="11.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="11.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="12.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="12.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="16.10"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="5902-2"/>
+				<display value="Prothrombin time (PT)"/>
+			</coding>
+		</code>
+		<count value="17"/>
+		<frequencyPerYear value="0.0051"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0078"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="sec"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="sec"/>
+			</units>
+			<min value="10.10"/><!--  1..1 Minimum value  -->
+			<max value="12"/><!--  1..1 Maximum value  -->
+			<mean value="11.15"/><!--  1..1 Mean  -->
+			<median value="11.15"/><!--  1..1 Median  -->
+			<stdDev value="0.61"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="10.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="10.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="10.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="11.10"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="11.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="11.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="11.50"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="11.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="12"/>
+			</decile>
+			<normalizedHigh value="12.0"/>
+			<normalizedLow value="9.1"/>
+			<fractionAboveNormal value="0"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="706-2"/>
+				<display value="Basophils/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="111"/>
+		<frequencyPerYear value="0.0335"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0525"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="2"/><!--  1..1 Maximum value  -->
+			<mean value="0.50"/><!--  1..1 Mean  -->
+			<median value="0"/><!--  1..1 Median  -->
+			<stdDev value="0.52"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="0"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="1"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="1"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="1"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="1"/>
+			</decile>
+			<normalizedHigh value="1.0"/>
+			<normalizedLow value="0.0"/>
+			<fractionAboveNormal value="0.01"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="736-9"/>
+				<display value="Lymphocytes/100 leukocytes in Blood by Automated count"/>
+			</coding>
+		</code>
+		<count value="78"/>
+		<frequencyPerYear value="0.0235"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0410"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="10"/><!--  1..1 Minimum value  -->
+			<max value="53.90"/><!--  1..1 Maximum value  -->
+			<mean value="31.31"/><!--  1..1 Mean  -->
+			<median value="30.40"/><!--  1..1 Median  -->
+			<stdDev value="9.51"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="18.20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="22.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="25.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="28"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="30.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="33.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="36.60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="39.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="43.30"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="19254-2"/>
+				<display value="Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood"/>
+			</coding>
+		</code>
+		<count value="81"/>
+		<frequencyPerYear value="0.0244"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmHg"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmHg"/>
+			</units>
+			<min value="49"/><!--  1..1 Minimum value  -->
+			<max value="514"/><!--  1..1 Maximum value  -->
+			<mean value="154.56"/><!--  1..1 Mean  -->
+			<median value="130.50"/><!--  1..1 Median  -->
+			<stdDev value="87.08"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="78"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="100"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="112"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="118"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="131"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="140"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="160"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="179"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="246"/>
+			</decile>
+			<normalizedHigh value="100"/>
+			<normalizedLow value="75"/>
+			<fractionAboveNormal value="0.80"/>
+			<fractionBelowNormal value="0.07"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="34705-4"/>
+				<display value="Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Blood"/>
+			</coding>
+		</code>
+		<count value="75"/>
+		<frequencyPerYear value="0.0226"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmHg"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmHg"/>
+			</units>
+			<min value="21"/><!--  1..1 Minimum value  -->
+			<max value="57"/><!--  1..1 Maximum value  -->
+			<mean value="38.15"/><!--  1..1 Mean  -->
+			<median value="37"/><!--  1..1 Median  -->
+			<stdDev value="8.55"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="28"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="32"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="34"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="37"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="39"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="43"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="46"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="51"/>
+			</decile>
+			<normalizedHigh value="45"/>
+			<normalizedLow value="35"/>
+			<fractionAboveNormal value="0.21"/>
+			<fractionBelowNormal value="0.43"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="49701-6"/>
+				<display value="pH of Blood adjusted to patient's actual temperature"/>
+			</coding>
+		</code>
+		<count value="74"/>
+		<frequencyPerYear value="0.0223"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value=""/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="UNK"/>
+			</units>
+			<min value="7.18"/><!--  1..1 Minimum value  -->
+			<max value="7.52"/><!--  1..1 Maximum value  -->
+			<mean value="7.40"/><!--  1..1 Mean  -->
+			<median value="7.40"/><!--  1..1 Median  -->
+			<stdDev value="0.07"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="7.29"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="7.33"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="7.37"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="7.39"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="7.40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="7.42"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="7.44"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="7.45"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="7.48"/>
+			</decile>
+			<normalizedHigh value="7.45"/>
+			<normalizedLow value="7.35"/>
+			<fractionAboveNormal value="0.27"/>
+			<fractionBelowNormal value="0.27"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="1959-6"/>
+				<display value="Bicarbonate [Moles/volume] in Blood"/>
+			</coding>
+		</code>
+		<count value="63"/>
+		<frequencyPerYear value="0.0190"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0072"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="mmol/L"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="mmol/L"/>
+			</units>
+			<min value="8"/><!--  1..1 Minimum value  -->
+			<max value="32"/><!--  1..1 Maximum value  -->
+			<mean value="22.41"/><!--  1..1 Mean  -->
+			<median value="22"/><!--  1..1 Median  -->
+			<stdDev value="3.69"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="18"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="20"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="22"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="23"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="24"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="25"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="27"/>
+			</decile>
+			<normalizedHigh value="26"/>
+			<normalizedLow value="22"/>
+			<fractionAboveNormal value="0.11"/>
+			<fractionBelowNormal value="0.44"/>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="19996-8"/>
+				<display value="Oxygen/Inspired gas Respiratory system --on ventilator"/>
+			</coding>
+		</code>
+		<count value="62"/>
+		<frequencyPerYear value="0.0187"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0127"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</units>
+			<min value="0"/><!--  1..1 Minimum value  -->
+			<max value="100"/><!--  1..1 Maximum value  -->
+			<mean value="41.02"/><!--  1..1 Mean  -->
+			<median value="30"/><!--  1..1 Median  -->
+			<stdDev value="28.21"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="21"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="25"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="40"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="60"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="100"/>
+			</decile>
+		</scalarDistribution>
+	</lab>
+	<lab>
+		<code>
+			<coding>
+				<system value="http://loinc.org"/>
+				<code value="20448-7"/>
+				<display value="Insulin [Units/volume] in Serum or Plasma"/>
+			</coding>
+		</code>
+		<count value="14"/>
+		<frequencyPerYear value="0.0042"/><!--  0..1 Number of this lab per year  -->
+		<fractionOfSubjects value="0.0078"/><!--  0..1 Percent of subjects with this lab  -->
+		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
+			<units>
+				<unit value="uIU/mL"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="uIU/mL"/>
+			</units>
+			<min value="6.80"/><!--  1..1 Minimum value  -->
+			<max value="71"/><!--  1..1 Maximum value  -->
+			<mean value="30.95"/><!--  1..1 Mean  -->
+			<median value="27"/><!--  1..1 Median  -->
+			<stdDev value="21.82"/><!--  1..1 Standard deviation  -->
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="10"/>
+				<value value="6.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="20"/>
+				<value value="8.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="30"/>
+				<value value="11.70"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="40"/>
+				<value value="23.80"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="50"/>
+				<value value="27"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="60"/>
+				<value value="27.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="70"/>
+				<value value="35.90"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="80"/>
+				<value value="42.30"/>
+			</decile>
+			<decile>  <!--  0..* Decile partitions  -->
+				<nth value="90"/>
+				<value value="64.70"/>
+			</decile>
+			<normalizedHigh value="24.9"/>
+			<normalizedLow value="2.6"/>
+			<fractionAboveNormal value="0.57"/>
+			<fractionBelowNormal value="0"/>
+		</scalarDistribution>
+	</lab>
+</ClinicalProfile>
+	

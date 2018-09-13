@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalProfile xmlns="http://hl7.org/fhir">
+	<!--  from Resource: id, meta, implicitRules, and language  -->
+	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
+	<id value="jhu-asthma-profile-93-diagnoses"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>Selected diagnoses for Female, Native Hawaiian or Other Pacific Islander,Asian,Unknown,American Indian or Alaska Native,Other patients aged 20-24 seen as either outpatients or inpatients at Johns Hopkins Hospital, JHCP, and Bayview between 3/1/2016 and 3/1/2018 having a diagnosis of asthma recorded on the problem list or as an encounter diagnosis.
+			</p>
+		</div>
+	</text>
+	<identifier>
+		<value value="urn:uuid:1BC50A74-B2A1-50EE-4D02D04BD52A7722"/>
+	</identifier>
+	<status value="draft"/><!--  1..1 complete | draft | error  -->
+	<population>
+		<reference value="Group/asthma-population-jhu1"/>
+	</population>
+	<cohort>
+		<reference value="Group/asthma-sample-93-cohort-jhu1"/>
+		<display value="Native Hawaiian or Other Pacific Islander,Asian,Unknown,American Indian or Alaska Native,Other Female aged 20-24"/> 
+	</cohort>
+	<date value="2018-09-12T16:58:00Z"/><!--  0..1 When the profile was generated  -->
+	<source>
+		<value value="http://ictrweb.johnshopkins.edu/ictr/synthetic/includes/clinical_profiles.cfm"/>
+	</source>
+	<reporter>
+		<reference value="Organization/JHM"/>
+		<type value="Organization"/>
+		<display value="Johns Hopkins School of Medicine"/>
+	</reporter>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.909"/> 
+				<display value="Asthma"/> 
+			</coding> 
+		</code> 
+		<count value="117"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z00.00"/> 
+				<display value="Routine general medical examination at a health care facility"/> 
+			</coding> 
+		</code> 
+		<count value="59"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J30.9"/> 
+				<display value="Allergic rhinitis"/> 
+			</coding> 
+		</code> 
+		<count value="45"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.20"/> 
+				<display value="Mild intermittent asthma without complication"/> 
+			</coding> 
+		</code> 
+		<count value="42"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F32.9"/> 
+				<display value="Depression"/> 
+			</coding> 
+		</code> 
+		<count value="36"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F41.9"/> 
+				<display value="Anxiety disorder"/> 
+			</coding> 
+		</code> 
+		<count value="26"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z34.90"/> 
+				<display value="Pregnancy, obstetrical care"/> 
+			</coding> 
+		</code> 
+		<count value="24"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z00.129"/> 
+				<display value="Routine infant or child health check"/> 
+			</coding> 
+		</code> 
+		<count value="22"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="E55.9"/> 
+				<display value="Unspecified vitamin D deficiency"/> 
+			</coding> 
+		</code> 
+		<count value="20"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="K21.9"/> 
+				<display value="Esophageal reflux"/> 
+			</coding> 
+		</code> 
+		<count value="19"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="E66.9"/> 
+				<display value="Non morbid obesity"/> 
+			</coding> 
+		</code> 
+		<count value="17"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="E66.01"/> 
+				<display value="Morbid obesity due to excess calories"/> 
+			</coding> 
+		</code> 
+		<count value="15"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H52.10"/> 
+				<display value="Myopia with astigmatism and presbyopia"/> 
+			</coding> 
+		</code> 
+		<count value="14"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="L70.9"/> 
+				<display value="Acne"/> 
+			</coding> 
+		</code> 
+		<count value="13"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="D64.9"/> 
+				<display value="Anemia"/> 
+			</coding> 
+		</code> 
+		<count value="13"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="N39.0"/> 
+				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+			</coding> 
+		</code> 
+		<count value="13"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="E28.2"/> 
+				<display value="Polycystic ovaries"/> 
+			</coding> 
+		</code> 
+		<count value="12"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="L30.9"/> 
+				<display value="Dermatitis"/> 
+			</coding> 
+		</code> 
+		<count value="12"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J30.2"/> 
+				<display value="Seasonal allergies"/> 
+			</coding> 
+		</code> 
+		<count value="12"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z23"/> 
+				<display value="Need for prophylactic vaccination and inoculation against influenza"/> 
+			</coding> 
+		</code> 
+		<count value="12"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="N92.6"/> 
+				<display value="Irregular menstrual cycle"/> 
+			</coding> 
+		</code> 
+		<count value="12"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F98.8"/> 
+				<display value="Attention deficit disorder"/> 
+			</coding> 
+		</code> 
+		<count value="11"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.990"/> 
+				<display value="Asthma, exercise induced"/> 
+			</coding> 
+		</code> 
+		<count value="11"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="E03.9"/> 
+				<display value="Hypothyroidism"/> 
+			</coding> 
+		</code> 
+		<count value="11"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="G89.29"/> 
+				<display value="Chronic pain of left knee"/> 
+			</coding> 
+		</code> 
+		<count value="10"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H52.209"/> 
+				<display value="Hyperopia with astigmatism and presbyopia"/> 
+			</coding> 
+		</code> 
+		<count value="10"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M54.9"/> 
+				<display value="Back pain"/> 
+			</coding> 
+		</code> 
+		<count value="10"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z28.3"/> 
+				<display value="Rubella non-immune status, antepartum"/> 
+			</coding> 
+		</code> 
+		<count value="10"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H52.13"/> 
+				<display value="Myopia with astigmatism, bilateral"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F90.9"/> 
+				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.30"/> 
+				<display value="Mild persistent asthma without complication"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="N94.6"/> 
+				<display value="Dysmenorrhea"/> 
+			</coding> 
+		</code> 
+		<count value="8"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="IMO0001"/> 
+				<display value="Elevated blood pressure"/> 
+			</coding> 
+		</code> 
+		<count value="8"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R55"/> 
+				<display value="Syncope"/> 
+			</coding> 
+		</code> 
+		<count value="8"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O80"/> 
+				<display value="Normal labor and delivery"/> 
+			</coding> 
+		</code> 
+		<count value="8"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O99.820"/> 
+				<display value="Group B streptococcal carriage complicating pregnancy"/> 
+			</coding> 
+		</code> 
+		<count value="8"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R51"/> 
+				<display value="Headache&#x28;784.0&#x29;"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z98.891"/> 
+				<display value="History of cesarean section"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="N18.6"/> 
+				<display value="ESRD on dialysis"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M54.5"/> 
+				<display value="Lumbago"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z34.80"/> 
+				<display value="Term pregnancy"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z59.8"/> 
+				<display value="Does not have health insurance"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R53.83"/> 
+				<display value="Fatigue"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="K59.00"/> 
+				<display value="Constipation"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H52.203"/> 
+				<display value="Myopia with astigmatism, bilateral"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="I10"/> 
+				<display value="Unspecified essential hypertension"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z79.899"/> 
+				<display value="Long-term use of immunosuppressant medication"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O99.89"/> 
+				<display value="Bacteriuria during pregnancy in first trimester"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="L70.8"/> 
+				<display value="Other acne"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M25.569"/> 
+				<display value="Pain in joint, lower leg"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="G43.909"/> 
+				<display value="Migraine"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F31.9"/> 
+				<display value="Bipolar disorder"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F41.8"/> 
+				<display value="Depression with anxiety"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="D50.9"/> 
+				<display value="Iron deficiency anemia"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z86.59"/> 
+				<display value="History of depression"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z30.9"/> 
+				<display value="Contraception management"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z98.890"/> 
+				<display value="History of carotid endarterectomy"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M41.20"/> 
+				<display value="Scoliosis &#x28;and kyphoscoliosis&#x29;, idiopathic"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="S06.0X9A"/> 
+				<display value="Concussion"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O09.899"/> 
+				<display value="High risk pregnancy with low PAPPA"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M79.2"/> 
+				<display value="Neuropathic pain syndrome &#x28;non-herpetic&#x29;"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O99.019"/> 
+				<display value="Anemia affecting pregnancy"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R00.2"/> 
+				<display value="Heart palpitations"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R05"/> 
+				<display value="Chronic cough"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R21"/> 
+				<display value="Skin rash"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R82.71"/> 
+				<display value="Asymptomatic bacteriuria"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R10.9"/> 
+				<display value="Abdominal pain"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z30.09"/> 
+				<display value="Family planning"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z78.9"/> 
+				<display value="Vegetarian diet"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="L70.0"/> 
+				<display value="Acne vulgaris"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="L25.9"/> 
+				<display value="Contact dermatitis and eczema"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J30.1"/> 
+				<display value="Allergic rhinitis due to pollen"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="IMO0002"/> 
+				<display value="Other tear of cartilage or meniscus of knee, current"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.901"/> 
+				<display value="Acute asthma exacerbation"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J31.0"/> 
+				<display value="Nonallergic rhinitis"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="A74.9"/> 
+				<display value="Chlamydia infection"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="B00.9"/> 
+				<display value="Herpes simplex without mention of complication"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z32.01"/> 
+				<display value="Pregnancy examination or test, positive result"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z11.1"/> 
+				<display value="Screening examination for pulmonary tuberculosis"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z34.93"/> 
+				<display value="Supervision of normal pregnancy in third trimester"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R53.81"/> 
+				<display value="Other malaise and fatigue"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O99.519"/> 
+				<display value="Asthma affecting pregnancy, antepartum"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="O99.013"/> 
+				<display value="Anemia affecting pregnancy in third trimester"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F41.1"/> 
+				<display value="Anxiety state"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F07.81"/> 
+				<display value="Post concussion syndrome"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M25.50"/> 
+				<display value="Arthralgia"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H54.7"/> 
+				<display value="Vision problem"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="H52.7"/> 
+				<display value="Refractive error"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J03.90"/> 
+				<display value="Tonsillitis"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J45.40"/> 
+				<display value="Moderate persistent asthma"/> 
+			</coding> 
+		</code> 
+		<count value="4"/> 
+	</diagnosis>
+</ClinicalProfile>
+	

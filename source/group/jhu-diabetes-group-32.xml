@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://hl7.org/fhir">
+	<id value="diabetes-sample-32-cohort-jhu2"/>
+	<text>        
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>diabetes patients aged 18-44, Black or African American, Male</p>
+		</div>
+	</text>
+	<identifier>
+		<system value="http://ncats.org/clinicalprofile/"/>
+		<value value="sample-32"/>
+	</identifier>
+	<type value="person"/>
+	<actual value="true"/>
+	<name value="diabetes patients aged 18-44, Black or African American, Male"/>
+	<quantity value="1388"/>
+	<characteristic>
+		<code>
+			<text value="ageGroup"/>
+		</code>
+		<valueRange>
+			<low>
+				<value value="18"/>
+			</low>
+			<high>
+				<value value="44"/>
+			</high>
+		</valueRange>
+		<exclude value="false"/>
+	</characteristic>
+	<characteristic>
+		<code>
+			<text value="race"/>
+		</code>
+		<valueCodeableConcept>
+			<coding>
+				<system value="urn:oid:2.16.840.1.114222.4.11.836"/>
+				<code value="2054-5"/>
+				<display value="Black or African American"/>
+			</coding>
+		</valueCodeableConcept>
+		<exclude value="false"/>
+	</characteristic>
+	<characteristic>
+		<code>
+			<text value="gender"/>
+		</code>
+		<valueCodeableConcept>
+			<coding>
+				<system value="http://hl7.org/fhir/administrative-gender"/>
+				<code value="male"/>
+				<display value="Male"/>
+			</coding>
+		</valueCodeableConcept>
+		<exclude value="false"/>
+	</characteristic>
+</Group>
+	

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://hl7.org/fhir">
+	<id value="diabetes-sample-8-cohort-jhu2"/>
+	<text>        
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>diabetes patients aged 45-64, White or Caucasian, Male,Female</p>
+		</div>
+	</text>
+	<identifier>
+		<system value="http://ncats.org/clinicalprofile/"/>
+		<value value="sample-8"/>
+	</identifier>
+	<type value="person"/>
+	<actual value="true"/>
+	<name value="diabetes patients aged 45-64, White or Caucasian, Male,Female"/>
+	<quantity value="14981"/>
+	<characteristic>
+		<code>
+			<text value="ageGroup"/>
+		</code>
+		<valueRange>
+			<low>
+				<value value="45"/>
+			</low>
+			<high>
+				<value value="64"/>
+			</high>
+		</valueRange>
+		<exclude value="false"/>
+	</characteristic>
+	<characteristic>
+		<code>
+			<text value="race"/>
+		</code>
+		<valueCodeableConcept>
+			<coding>
+				<system value="urn:oid:2.16.840.1.114222.4.11.836"/>
+				<code value="2054-5"/>
+				<display value="White or Caucasian"/>
+			</coding>
+		</valueCodeableConcept>
+		<exclude value="false"/>
+	</characteristic>
+</Group>
+	
