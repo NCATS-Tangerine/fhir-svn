@@ -191,6 +191,9 @@ public class ResourceValidator extends BaseValidator {
     rule(errors, IssueType.STRUCTURE, rd.getName(), !name.equals("Tags"), "The name 'Tags' is not a legal name for a resource");
     rule(errors, IssueType.STRUCTURE, rd.getName(), !name.equals("MailBox"), "The name 'MailBox' is not a legal name for a resource");
     rule(errors, IssueType.STRUCTURE, rd.getName(), !name.equals("Validation"), "The name 'Validation' is not a legal name for a resource");
+    System.out.println("-----> Testing " + name);
+    if(!translations.hasTranslation(name))
+      System.out.println("     FAIL!");
     rule(errors, IssueType.REQUIRED,  rd.getName(), name.equals("Parameters") || translations.hasTranslation(name), "The name '"+name+"' is not found in the file translations.xml");
     rule(errors, IssueType.STRUCTURE, rd.getName(), name.length() > 1 && Character.isUpperCase(name.charAt(0)), "Resource Name must start with an uppercase alpha character");
     rule(errors, IssueType.STRUCTURE, rd.getName(), !Utilities.noString(rd.getFmmLevel()), "Resource must have a maturity level");
