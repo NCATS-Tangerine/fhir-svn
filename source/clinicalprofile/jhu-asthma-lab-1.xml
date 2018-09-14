@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-1-labs"/>
@@ -92,7 +91,74 @@
 			<fractionAboveNormal value="0.43"/>
 			<fractionBelowNormal value="0.04"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="14749-6"/>
+                <display value="lab_Glucose SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6525442687263806"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6462823854423332"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.455879299841132"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4818365363640736"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5653748611645372"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9426993045432409"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -152,7 +218,92 @@
 				<value value="195"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9099187838424632"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="14749-6"/>
+                <display value="lab_Glucose SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6715563138659614"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2345-7"/>
+                <display value="lab_Glucose SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6462823854423332"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5026410975242923"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="13457-7"/>
+                <display value="lab_LDLc SerPl Calc-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -216,7 +367,56 @@
 			<fractionAboveNormal value="0.66"/>
 			<fractionBelowNormal value="0.01"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6715563138659614"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2345-7"/>
+                <display value="lab_Glucose SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6525442687263806"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -280,7 +480,110 @@
 			<fractionAboveNormal value="0.30"/>
 			<fractionBelowNormal value="0.01"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20448-7"/>
+                <display value="lab_Insulin SerPl-aCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9816373856933168"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9099187838424632"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7850729851573065"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3094-0"/>
+                <display value="lab_BUN SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6145011399948465"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_N/A: FEV1OFVCZBD"/>
+                <display value="lab_N/A: FEV1OFVCZBD"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5286144015277303"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_bp_systolic"/>
+                <display value="lab_bp_systolic"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4536851563690234"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2571-8"/>
+                <display value="lab_Trigl SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4276613455011059"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19123-9"/>
+                <display value="lab_Magnesium SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4751103000022187"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6690-2"/>
+                <display value="lab_WBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5255747234896938"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5902-2"/>
+                <display value="lab_Prothrombin time"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7646844530398776"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5964-2"/>
+                <display value="lab_PT Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.897220518375163"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -340,7 +643,29 @@
 				<value value="4.90"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5661429393791702"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -404,7 +729,29 @@
 			<fractionAboveNormal value="0.03"/>
 			<fractionBelowNormal value="0.02"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.47452178376299325"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.40532682906277134"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -468,7 +815,119 @@
 			<fractionAboveNormal value="0.01"/>
 			<fractionBelowNormal value="0.04"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="14749-6"/>
+                <display value="lab_Glucose SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9998436481005374"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9767686980185358"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.582520941307249"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="39789-3"/>
+                <display value="lab_Potassium BldV-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5661429393791702"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2823-3"/>
+                <display value="lab_Potassium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.47452178376299325"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2777-1"/>
+                <display value="lab_Phosphate SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4059932080033709"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="737-7"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4235149749723278"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7433655843698744"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9386403715807398"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2000-8"/>
+                <display value="lab_Calcium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -532,7 +991,65 @@
 			<fractionAboveNormal value="0.01"/>
 			<fractionBelowNormal value="0.43"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9776212074459955"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7418327548150708"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1995-0"/>
+                <display value="lab_Ca-I SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7273964394983685"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2000-8"/>
+                <display value="lab_Calcium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.46339269036545633"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9197547647564012"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -596,7 +1113,65 @@
 			<fractionAboveNormal value="0.02"/>
 			<fractionBelowNormal value="0.20"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17861-6"/>
+                <display value="lab_Calcium SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.46339269036545633"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.46143793642759084"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20448-7"/>
+                <display value="lab_Insulin SerPl-aCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6288250010447131"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -660,7 +1235,47 @@
 			<fractionAboveNormal value="0.03"/>
 			<fractionBelowNormal value="0.11"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.99053606468791"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6291438734314253"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8239156465440305"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -720,7 +1335,65 @@
 				<value value="34"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8758790205889558"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3094-0"/>
+                <display value="lab_BUN SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7952723676697507"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33914-3"/>
+                <display value="lab_GFR/BSA.pred SerPl MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4098291168070589"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.591987092968524"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7634031055499674"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -784,7 +1457,65 @@
 			<fractionAboveNormal value="0.08"/>
 			<fractionBelowNormal value="0.02"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="12962-7"/>
+                <display value="lab_BUN BldV-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7952723676697507"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7736229046224103"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6145011399948465"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.44380913375603265"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5701533684526311"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6327594488883272"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -848,7 +1579,110 @@
 			<fractionAboveNormal value="0.09"/>
 			<fractionBelowNormal value="0.04"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="14749-6"/>
+                <display value="lab_Glucose SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="12962-7"/>
+                <display value="lab_BUN BldV-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8758790205889558"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3094-0"/>
+                <display value="lab_BUN SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7736229046224103"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7662035949067668"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6546536707079771"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="736-9"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4231336020363627"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8235160029776578"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8862443818328365"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9363605678684459"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2000-8"/>
+                <display value="lab_Calcium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -908,7 +1742,11 @@
 				<value value="85"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -968,7 +1806,74 @@
 				<value value="110"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8840448696413777"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA pred.black SerPlBld MDRD-ArVRat"/>
+                <display value="lab_GFR/BSA pred.black SerPlBld MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7440992972011214"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2601-3"/>
+                <display value="lab_Magnesium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41167932424266823"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="12962-7"/>
+                <display value="lab_BUN BldV-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4098291168070589"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6768-6"/>
+                <display value="lab_ALP SerPl-cCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4874165516131352"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8844867410201387"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1995-0"/>
+                <display value="lab_Ca-I SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1028,7 +1933,11 @@
 				<value value="114"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1088,7 +1997,11 @@
 				<value value="114"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1148,7 +2061,11 @@
 				<value value="132"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1212,7 +2129,65 @@
 			<fractionAboveNormal value="0.03"/>
 			<fractionBelowNormal value="0.38"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9629764559786929"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.926517303261568"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="789-8"/>
+                <display value="lab_RBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.810302012755883"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.628161728271285"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5266089493572664"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1276,7 +2251,56 @@
 			<fractionAboveNormal value="0.08"/>
 			<fractionBelowNormal value="0.11"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7996078854371444"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5103278896762271"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6593454659918467"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9853278552102395"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1336,7 +2360,38 @@
 				<value value="14.09"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6690-2"/>
+                <display value="lab_WBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5980340468686592"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5232938925656804"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1400,7 +2455,47 @@
 			<fractionAboveNormal value="0.10"/>
 			<fractionBelowNormal value="0.03"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6032163878644052"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33256-9"/>
+                <display value="lab_WBC nRBC cor # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5980340468686592"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5367430450036348"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5255747234896938"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1464,7 +2559,83 @@
 			<fractionAboveNormal value="0.02"/>
 			<fractionBelowNormal value="0.52"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9888239391152012"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="4544-3"/>
+                <display value="lab_Hct VFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9629764559786929"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="789-8"/>
+                <display value="lab_RBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7463547520624703"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.548858772327003"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="786-4"/>
+                <display value="lab_MCHC RBC Auto-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.46106493198826387"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="785-6"/>
+                <display value="lab_MCH RBC Qn Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4232189518539849"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="788-0"/>
+                <display value="lab_RDW RBC Auto-Rto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.43632583205087233"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1528,7 +2699,47 @@
 			<fractionAboveNormal value="0.05"/>
 			<fractionBelowNormal value="0.34"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="4544-3"/>
+                <display value="lab_Hct VFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.810302012755883"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7463547520624703"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7231868045543586"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1592,7 +2803,47 @@
 			<fractionAboveNormal value="0.09"/>
 			<fractionBelowNormal value="0.10"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9790495900809119"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="785-6"/>
+                <display value="lab_MCH RBC Qn Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9241756401718023"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5061935155729345"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1656,7 +2907,65 @@
 			<fractionAboveNormal value="0.02"/>
 			<fractionBelowNormal value="0.19"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.949759196208257"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="785-6"/>
+                <display value="lab_MCH RBC Qn Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.627544314593469"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5297806918656351"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.46106493198826387"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8298825399357859"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1720,7 +3029,74 @@
 			<fractionAboveNormal value="0.05"/>
 			<fractionBelowNormal value="0.19"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9663046775227386"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="787-2"/>
+                <display value="lab_MCV RBC Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9241756401718023"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="786-4"/>
+                <display value="lab_MCHC RBC Auto-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.627544314593469"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4232189518539849"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="788-0"/>
+                <display value="lab_RDW RBC Auto-Rto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4739209761336463"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5658482453274879"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1784,7 +3160,65 @@
 			<fractionAboveNormal value="0.30"/>
 			<fractionBelowNormal value="0.05"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6694466714831715"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.43632583205087233"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4409320180872127"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="785-6"/>
+                <display value="lab_MCH RBC Qn Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4739209761336463"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9508736526650907"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1848,7 +3282,47 @@
 			<fractionAboveNormal value="0.33"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1920-8"/>
+                <display value="lab_AST SerPl-cCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8463377469792652"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7586292003344947"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6749012518371343"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1912,7 +3386,47 @@
 			<fractionAboveNormal value="0.15"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1742-6"/>
+                <display value="lab_ALT SerPl-cCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8463377469792652"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5657128697188473"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9768765983810963"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -1976,7 +3490,56 @@
 			<fractionAboveNormal value="0.20"/>
 			<fractionBelowNormal value="0.00"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.576048573979275"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4456925314681922"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33914-3"/>
+                <display value="lab_GFR/BSA.pred SerPl MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4874165516131352"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5523221914721618"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2040,7 +3603,47 @@
 			<fractionAboveNormal value="0.09"/>
 			<fractionBelowNormal value="0.00"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7244365127068779"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4060393474340772"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.40723698362954297"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2104,7 +3707,56 @@
 			<fractionAboveNormal value="0.07"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6097907036080945"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4889880322732967"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4256244546077571"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7135702478107793"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2168,7 +3820,65 @@
 			<fractionAboveNormal value="0.07"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7815919852164482"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6663732137423762"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.519429360432647"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8584185518887323"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9438802892847565"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2232,7 +3942,83 @@
 			<fractionAboveNormal value="0.01"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="706-2"/>
+                <display value="lab_Basophils/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6663732137423762"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6546536707079771"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33256-9"/>
+                <display value="lab_WBC nRBC cor # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5232938925656804"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1959-6"/>
+                <display value="lab_HCO3 Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2296,7 +4082,56 @@
 			<fractionAboveNormal value="0.10"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6628489803598696"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.48454260654573467"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="744-3"/>
+                <display value="lab_Monocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.43634032299147624"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6104472082970319"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9682925618519624"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2360,7 +4195,38 @@
 			<fractionAboveNormal value="0.15"/>
 			<fractionBelowNormal value="0.06"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0000000000000002"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4751103000022187"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.951820537911183"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2424,7 +4290,29 @@
 			<fractionAboveNormal value="0.23"/>
 			<fractionBelowNormal value="0.02"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33914-3"/>
+                <display value="lab_GFR/BSA.pred SerPl MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41167932424266823"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="736-9"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8669217724233332"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2488,7 +4376,56 @@
 			<fractionAboveNormal value="0.31"/>
 			<fractionBelowNormal value="0.01"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9195902599601892"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="13457-7"/>
+                <display value="lab_LDLc SerPl Calc-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.897472652139855"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7009387240843692"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.61510967039306"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999998"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2548,7 +4485,101 @@
 				<value value="235"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2093-3"/>
+                <display value="lab_Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9195902599601892"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8466107818856888"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1959-6"/>
+                <display value="lab_HCO3 Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7387824611358158"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2571-8"/>
+                <display value="lab_Trigl SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5548195195612992"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="736-9"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41040605212192316"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1975-2"/>
+                <display value="lab_Bilirub SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.40723698362954297"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4449576251562338"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6972632419856392"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8092683750904659"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2612,7 +4643,74 @@
 			<fractionAboveNormal value="0.26"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9044741434297437"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8589771824457827"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.716834322837213"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5867376850115607"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5548195195612992"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4276613455011059"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2676,7 +4774,83 @@
 			<fractionAboveNormal value="0.54"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2571-8"/>
+                <display value="lab_Trigl SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8589771824457827"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5026410975242923"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2345-7"/>
+                <display value="lab_Glucose SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.455879299841132"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2085-9"/>
+                <display value="lab_HDLc SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4519808027274141"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.47230444328266763"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.568576110855164"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33914-3"/>
+                <display value="lab_GFR/BSA.pred SerPl MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8844867410201387"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2740,7 +4914,29 @@
 			<fractionAboveNormal value="0.12"/>
 			<fractionBelowNormal value="0.09"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9917898801748969"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4519808027274141"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2800,7 +4996,38 @@
 				<value value="23.20"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5902-2"/>
+                <display value="lab_Prothrombin time"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5480277943966501"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.897220518375163"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2864,7 +5091,38 @@
 			<fractionAboveNormal value="0.39"/>
 			<fractionBelowNormal value="0.00"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8205005482443507"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5964-2"/>
+                <display value="lab_PT Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5480277943966501"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7646844530398776"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2928,7 +5186,65 @@
 			<fractionAboveNormal value="0.16"/>
 			<fractionBelowNormal value="0.13"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4059932080033709"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.478339349312878"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="13457-7"/>
+                <display value="lab_LDLc SerPl Calc-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5062942538668441"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5425446102775001"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -2992,7 +5308,56 @@
 			<fractionAboveNormal value="0.20"/>
 			<fractionBelowNormal value="0.58"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="736-9"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5730933962034155"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_height"/>
+                <display value="lab_height"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.40027636551075463"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4235149749723278"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6688432191291173"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3052,7 +5417,56 @@
 				<value value="43.60"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="737-7"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5730933962034155"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4231336020363627"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41040605212192316"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6389871993975941"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2601-3"/>
+                <display value="lab_Magnesium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8669217724233332"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3116,7 +5530,47 @@
 			<fractionAboveNormal value="0.18"/>
 			<fractionBelowNormal value="0.08"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8037678508343249"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5905-5"/>
+                <display value="lab_Monocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.43634032299147624"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="13457-7"/>
+                <display value="lab_LDLc SerPl Calc-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.44466485050906074"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3180,7 +5634,56 @@
 			<fractionAboveNormal value="0.09"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6628489803598696"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.48454260654573467"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="744-3"/>
+                <display value="lab_Monocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.43634032299147624"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6104472082970319"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9682925618519624"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3244,7 +5747,74 @@
 			<fractionAboveNormal value="0.06"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.747292490641255"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5477259188830271"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="13457-7"/>
+                <display value="lab_LDLc SerPl Calc-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5464313477453837"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="713-8"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4889880322732967"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.568576110855164"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6972632419856392"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3308,7 +5878,56 @@
 			<fractionAboveNormal value="0.07"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6097907036080945"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4889880322732967"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4256244546077571"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7135702478107793"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3372,7 +5991,65 @@
 			<fractionAboveNormal value="0.59"/>
 			<fractionBelowNormal value="0.18"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.523307035913854"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4449576251562338"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8235160029776578"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9386403715807398"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3436,7 +6113,74 @@
 			<fractionAboveNormal value="0.32"/>
 			<fractionBelowNormal value="0.18"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8466107818856888"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1959-6"/>
+                <display value="lab_HCO3 Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6592308639131421"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6068616490694537"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7433655843698744"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8862443818328365"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3450,9 +6194,9 @@
 		<fractionOfSubjects value="0.0195"/><!--  0..1 Percent of subjects with this lab  -->
 		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
 			<units>
-				<unit value="UNK"/>
+				<unit value=""/>
 				<system value="http://unitsofmeasure.org"/>
-				<code value="UNK"/>
+				<code value=""/>
 			</units>
 			<min value="6.56"/><!--  1..1 Minimum value  -->
 			<max value="7.80"/><!--  1..1 Maximum value  -->
@@ -3500,7 +6244,65 @@
 			<fractionAboveNormal value="0.16"/>
 			<fractionBelowNormal value="0.39"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7662035949067668"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.582520941307249"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.47230444328266763"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8092683750904659"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3564,7 +6366,65 @@
 			<fractionAboveNormal value="0.03"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7815919852164482"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6663732137423762"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17864-0"/>
+                <display value="lab_Ca-I SerPl ISE-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.519429360432647"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20636-7"/>
+                <display value="lab_Alanine SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8584185518887323"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17863-2"/>
+                <display value="lab_Ca-I SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9438802892847565"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="21394-2"/>
+                <display value="lab_Monos+Macros/leuk NFr Fld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3624,7 +6484,65 @@
 				<value value="95"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3049-4"/>
+                <display value="lab_Deprecated Trigl Plas-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6298-4"/>
+                <display value="lab_Potassium Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9998436481005374"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9363605678684459"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3688,7 +6606,56 @@
 			<fractionAboveNormal value="0.27"/>
 			<fractionBelowNormal value="0.26"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7387824611358158"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6592308639131421"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5321679416446865"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="704-7"/>
+                <display value="lab_Basophils # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="731-0"/>
+                <display value="lab_Lymphocytes # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3748,7 +6715,56 @@
 				<value value="43.30"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="737-7"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5730933962034155"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6299-2"/>
+                <display value="lab_BUN Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4231336020363627"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2565-0"/>
+                <display value="lab_Deprecated Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41040605212192316"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6389871993975941"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2601-3"/>
+                <display value="lab_Magnesium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8669217724233332"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3812,7 +6828,101 @@
 			<fractionAboveNormal value="0.13"/>
 			<fractionBelowNormal value="0.04"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19996-8"/>
+                <display value="lab_FIO2 on vent"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5902-2"/>
+                <display value="lab_Prothrombin time"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.8205005482443507"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5477259188830271"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6690-2"/>
+                <display value="lab_WBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5367430450036348"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="707-0"/>
+                <display value="lab_Basophils/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5040160137717857"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="49701-6"/>
+                <display value="lab_pH temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1959-6"/>
+                <display value="lab_HCO3 Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3876,7 +6986,65 @@
 			<fractionAboveNormal value="0.42"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2093-3"/>
+                <display value="lab_Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.897472652139855"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6130924393586301"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5464313477453837"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="744-3"/>
+                <display value="lab_Monocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.44466485050906074"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2777-1"/>
+                <display value="lab_Phosphate SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5062942538668441"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -3940,7 +7108,47 @@
 			<fractionAboveNormal value="0.47"/>
 			<fractionBelowNormal value="0.03"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1558-6"/>
+                <display value="lab_Glucose p fast SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9816373856933168"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2000-8"/>
+                <display value="lab_Calcium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6288250010447131"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2077-6"/>
+                <display value="lab_Chloride Sweat-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -4000,7 +7208,29 @@
 				<value value="1.39"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17861-6"/>
+                <display value="lab_Calcium SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7273964394983685"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="33914-3"/>
+                <display value="lab_GFR/BSA.pred SerPl MDRD-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -4064,7 +7294,191 @@
 			<fractionAboveNormal value="0.13"/>
 			<fractionBelowNormal value="0.07"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2339-0"/>
+                <display value="lab_Glucose Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="714-6"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="744-3"/>
+                <display value="lab_Monocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5964-2"/>
+                <display value="lab_PT Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="17861-6"/>
+                <display value="lab_Calcium SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7418327548150708"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2571-8"/>
+                <display value="lab_Trigl SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.716834322837213"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="718-7"/>
+                <display value="lab_Hgb Bld-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.548858772327003"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="786-4"/>
+                <display value="lab_MCHC RBC Auto-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5297806918656351"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="4544-3"/>
+                <display value="lab_Hct VFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5266089493572664"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="706-2"/>
+                <display value="lab_Basophils/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.519429360432647"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="777-3"/>
+                <display value="lab_Platelet # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5103278896762271"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5905-5"/>
+                <display value="lab_Monocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.48454260654573467"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1975-2"/>
+                <display value="lab_Bilirub SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4060393474340772"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2345-7"/>
+                <display value="lab_Glucose SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4818365363640736"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2777-1"/>
+                <display value="lab_Phosphate SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5425446102775001"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="3094-0"/>
+                <display value="lab_BUN SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6327594488883272"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="12962-7"/>
+                <display value="lab_BUN BldV-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.7634031055499674"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+                <display value="lab_GFR/BSA.pred SerPlBld CKD-EPI-ArVRat"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9956458428881905"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="737-7"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Manual"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_N/A: FEV1OFVCZBD"/>
+                <display value="lab_N/A: FEV1OFVCZBD"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -4124,7 +7538,83 @@
 				<value value="38"/>
 			</decile>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="34705-4"/>
+                <display value="lab_pCO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6068616490694537"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="1959-6"/>
+                <display value="lab_HCO3 Bld-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.5321679416446865"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19254-2"/>
+                <display value="lab_pO2 temp adj Bld"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.523307035913854"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2777-1"/>
+                <display value="lab_Phosphate SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.478339349312878"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="736-9"/>
+                <display value="lab_Lymphocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6389871993975941"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="20448-7"/>
+                <display value="lab_Insulin SerPl-aCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999999"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2000-8"/>
+                <display value="lab_Calcium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="14749-6"/>
+                <display value="lab_Glucose SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0000000000000002"/>
+    </entry>
+</correlatedLabs></lab>
 	<lab>
 		<code>
 			<coding>
@@ -4188,6 +7678,162 @@
 			<fractionAboveNormal value="0"/>
 			<fractionBelowNormal value="0"/>
 		</scalarDistribution>
-	</lab>
+	<correlatedLabs>
+   <topn value="20"/>
+   <abscorrelation value="0.4"/>
+    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2777-1"/>
+                <display value="lab_Phosphate SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="777-3"/>
+                <display value="lab_Platelet # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.7996078854371444"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6690-2"/>
+                <display value="lab_WBC # Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.6032163878644052"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_respiration"/>
+                <display value="lab_respiration"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.41884829918942096"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_pulse"/>
+                <display value="lab_pulse"/>
+            </coding>
+        </labcode>
+        <coefficient value="0.4024092091408283"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2823-3"/>
+                <display value="lab_Potassium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.40532682906277134"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="713-8"/>
+                <display value="lab_Eosinophil/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4256244546077571"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="lab_height"/>
+                <display value="lab_height"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4315271974991782"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="788-0"/>
+                <display value="lab_RDW RBC Auto-Rto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.4409320180872127"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="6768-6"/>
+                <display value="lab_ALP SerPl-cCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5523221914721618"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2345-7"/>
+                <display value="lab_Glucose SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.5653748611645372"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="5905-5"/>
+                <display value="lab_Monocytes/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6104472082970319"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2951-2"/>
+                <display value="lab_Sodium SerPl-sCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.6291438734314253"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="706-2"/>
+                <display value="lab_Basophils/leuk NFr Bld Auto"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.8584185518887323"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="19123-9"/>
+                <display value="lab_Magnesium SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.951820537911183"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2093-3"/>
+                <display value="lab_Cholest SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-0.9999999999999998"/>
+    </entry>    <entry>
+        <labcode>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="2571-8"/>
+                <display value="lab_Trigl SerPl-mCnc"/>
+            </coding>
+        </labcode>
+        <coefficient value="-1.0"/>
+    </entry>
+</correlatedLabs></lab>
 </ClinicalProfile>
-	

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-12-diagnoses"/>
@@ -105,7 +104,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="165"/> 
@@ -175,7 +174,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="119"/> 
@@ -525,7 +524,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="45"/> 
@@ -565,7 +564,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="43"/> 
@@ -645,7 +644,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="39"/> 
@@ -785,7 +784,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="33"/> 
@@ -795,7 +794,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M41.20"/> 
-				<display value="Scoliosis &#x28;and kyphoscoliosis&#x29;, idiopathic"/> 
+				<display value="Scoliosis (and kyphoscoliosis), idiopathic"/> 
 			</coding> 
 		</code> 
 		<count value="33"/> 
@@ -815,7 +814,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.52"/> 
-				<display value="Short stature &#x28;child&#x29;"/> 
+				<display value="Short stature (child)"/> 
 			</coding> 
 		</code> 
 		<count value="33"/> 
@@ -1015,7 +1014,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Q79.6"/> 
-				<display value="EDS &#x28;Ehlers-Danlos syndrome&#x29;"/> 
+				<display value="EDS (Ehlers-Danlos syndrome)"/> 
 			</coding> 
 		</code> 
 		<count value="27"/> 
@@ -1055,7 +1054,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M21.40"/> 
-				<display value="Flat foot&#x28;734&#x29;"/> 
+				<display value="Flat foot(734)"/> 
 			</coding> 
 		</code> 
 		<count value="26"/> 
@@ -1071,4 +1070,3 @@
 		<count value="26"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

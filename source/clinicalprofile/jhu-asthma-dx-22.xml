@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-22-diagnoses"/>
@@ -195,7 +194,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="235"/> 
@@ -405,7 +404,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="115"/> 
@@ -685,7 +684,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R87.610"/> 
-				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix &#x28;ASC-US&#x29;"/> 
+				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US)"/> 
 			</coding> 
 		</code> 
 		<count value="80"/> 
@@ -725,7 +724,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R87.810"/> 
-				<display value="Cervical high risk HPV &#x28;human papillomavirus&#x29; test positive"/> 
+				<display value="Cervical high risk HPV (human papillomavirus) test positive"/> 
 			</coding> 
 		</code> 
 		<count value="78"/> 
@@ -975,7 +974,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="64"/> 
@@ -1385,7 +1384,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z68.42"/> 
-				<display value="Class 3 obesity with serious comorbidity and body mass index &#x28;BMI&#x29; of 45.0 to 49.9 in adult"/> 
+				<display value="Class 3 obesity with serious comorbidity and body mass index (BMI) of 45.0 to 49.9 in adult"/> 
 			</coding> 
 		</code> 
 		<count value="46"/> 
@@ -1435,7 +1434,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R76.8"/> 
-				<display value="Positive ANA &#x28;antinuclear antibody&#x29;"/> 
+				<display value="Positive ANA (antinuclear antibody)"/> 
 			</coding> 
 		</code> 
 		<count value="46"/> 
@@ -1501,4 +1500,3 @@
 		<count value="45"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-10-diagnoses"/>
@@ -95,7 +94,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="177"/> 
@@ -255,7 +254,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J21.0"/> 
-				<display value="RSV &#x28;acute bronchiolitis due to respiratory syncytial virus&#x29;"/> 
+				<display value="RSV (acute bronchiolitis due to respiratory syncytial virus)"/> 
 			</coding> 
 		</code> 
 		<count value="81"/> 
@@ -305,7 +304,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.51"/> 
-				<display value="Failure to thrive &#x28;0-17&#x29;"/> 
+				<display value="Failure to thrive (0-17)"/> 
 			</coding> 
 		</code> 
 		<count value="62"/> 
@@ -465,7 +464,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z96.22"/> 
-				<display value="S&#x2f;P myringotomy with insertion of tube"/> 
+				<display value="S/P myringotomy with insertion of tube"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -485,7 +484,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -645,7 +644,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N47.8"/> 
-				<display value="Phimosis&#x2f;redundant prepuce"/> 
+				<display value="Phimosis/redundant prepuce"/> 
 			</coding> 
 		</code> 
 		<count value="30"/> 
@@ -761,4 +760,3 @@
 		<count value="25"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

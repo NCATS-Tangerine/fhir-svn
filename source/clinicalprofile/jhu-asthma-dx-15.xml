@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-15-diagnoses"/>
@@ -445,7 +444,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K58.9"/> 
-				<display value="Irritable bowel syndrome &#x28;IBS&#x29;"/> 
+				<display value="Irritable bowel syndrome (IBS)"/> 
 			</coding> 
 		</code> 
 		<count value="594"/> 
@@ -495,7 +494,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="573"/> 
@@ -545,7 +544,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I25.10"/> 
-				<display value="CAD &#x28;coronary artery disease&#x29;"/> 
+				<display value="CAD (coronary artery disease)"/> 
 			</coding> 
 		</code> 
 		<count value="495"/> 
@@ -585,7 +584,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J44.9"/> 
-				<display value="COPD &#x28;chronic obstructive pulmonary disease&#x29;"/> 
+				<display value="COPD (chronic obstructive pulmonary disease)"/> 
 			</coding> 
 		</code> 
 		<count value="486"/> 
@@ -805,7 +804,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N52.9"/> 
-				<display value="ED &#x28;erectile dysfunction&#x29;"/> 
+				<display value="ED (erectile dysfunction)"/> 
 			</coding> 
 		</code> 
 		<count value="355"/> 
@@ -815,7 +814,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="354"/> 
@@ -995,7 +994,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R74.0"/> 
-				<display value="Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase &#x28;LDH&#x29;"/> 
+				<display value="Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase (LDH)"/> 
 			</coding> 
 		</code> 
 		<count value="301"/> 
@@ -1095,7 +1094,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="275"/> 
@@ -1175,7 +1174,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R94.31"/> 
-				<display value="Nonspecific abnormal electrocardiogram &#x28;ECG&#x29; &#x28;EKG&#x29;"/> 
+				<display value="Nonspecific abnormal electrocardiogram (ECG) (EKG)"/> 
 			</coding> 
 		</code> 
 		<count value="266"/> 
@@ -1545,7 +1544,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M50.30"/> 
-				<display value="DDD &#x28;degenerative disc disease&#x29;, cervical"/> 
+				<display value="DDD (degenerative disc disease), cervical"/> 
 			</coding> 
 		</code> 
 		<count value="215"/> 
@@ -1625,7 +1624,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F43.10"/> 
-				<display value="PTSD &#x28;post-traumatic stress disorder&#x29;"/> 
+				<display value="PTSD (post-traumatic stress disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="206"/> 
@@ -1655,7 +1654,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z98.84"/> 
-				<display value="H&#x2f;O bariatric surgery"/> 
+				<display value="H/O bariatric surgery"/> 
 			</coding> 
 		</code> 
 		<count value="202"/> 
@@ -1685,7 +1684,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E06.3"/> 
-				<display value="Hashimoto&#x27;s disease"/> 
+				<display value="Hashimoto's disease"/> 
 			</coding> 
 		</code> 
 		<count value="198"/> 
@@ -1695,7 +1694,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="198"/> 
@@ -1715,7 +1714,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R53.82"/> 
-				<display value="CFS &#x28;chronic fatigue syndrome&#x29;"/> 
+				<display value="CFS (chronic fatigue syndrome)"/> 
 			</coding> 
 		</code> 
 		<count value="194"/> 
@@ -1815,7 +1814,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M51.36"/> 
-				<display value="DDD &#x28;degenerative disc disease&#x29;, lumbar"/> 
+				<display value="DDD (degenerative disc disease), lumbar"/> 
 			</coding> 
 		</code> 
 		<count value="187"/> 
@@ -1865,7 +1864,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R76.8"/> 
-				<display value="Positive ANA &#x28;antinuclear antibody&#x29;"/> 
+				<display value="Positive ANA (antinuclear antibody)"/> 
 			</coding> 
 		</code> 
 		<count value="185"/> 
@@ -1891,4 +1890,3 @@
 		<count value="185"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-18-diagnoses"/>
@@ -235,7 +234,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.51"/> 
-				<display value="Failure to thrive &#x28;0-17&#x29;"/> 
+				<display value="Failure to thrive (0-17)"/> 
 			</coding> 
 		</code> 
 		<count value="120"/> 
@@ -255,7 +254,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="116"/> 
@@ -375,7 +374,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J21.0"/> 
-				<display value="RSV &#x28;acute bronchiolitis due to respiratory syncytial virus&#x29;"/> 
+				<display value="RSV (acute bronchiolitis due to respiratory syncytial virus)"/> 
 			</coding> 
 		</code> 
 		<count value="86"/> 
@@ -555,7 +554,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="P27.1"/> 
-				<display value="BPD &#x28;bronchopulmonary dysplasia&#x29;"/> 
+				<display value="BPD (bronchopulmonary dysplasia)"/> 
 			</coding> 
 		</code> 
 		<count value="56"/> 
@@ -615,7 +614,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z09"/> 
-				<display value="S&#x2f;P gastrostomy tube &#x28;G tube&#x29; placement, follow-up exam"/> 
+				<display value="S/P gastrostomy tube (G tube) placement, follow-up exam"/> 
 			</coding> 
 		</code> 
 		<count value="51"/> 
@@ -955,7 +954,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z38.2"/> 
-				<display value="Normal newborn &#x28;single liveborn&#x29;"/> 
+				<display value="Normal newborn (single liveborn)"/> 
 			</coding> 
 		</code> 
 		<count value="36"/> 
@@ -985,7 +984,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N47.8"/> 
-				<display value="Phimosis&#x2f;redundant prepuce"/> 
+				<display value="Phimosis/redundant prepuce"/> 
 			</coding> 
 		</code> 
 		<count value="34"/> 
@@ -1011,4 +1010,3 @@
 		<count value="33"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

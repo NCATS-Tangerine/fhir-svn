@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-7-labs"/>
@@ -3574,9 +3573,9 @@
 		<fractionOfSubjects value="0.0258"/><!--  0..1 Percent of subjects with this lab  -->
 		<scalarDistribution>  <!--  0..1 Numeric sample summary  -->
 			<units>
-				<unit value="UNK"/>
+				<unit value=""/>
 				<system value="http://unitsofmeasure.org"/>
-				<code value="UNK"/>
+				<code value=""/>
 			</units>
 			<min value="6.71"/><!--  1..1 Minimum value  -->
 			<max value="7.80"/><!--  1..1 Maximum value  -->
@@ -4066,4 +4065,3 @@
 		</scalarDistribution>
 	</lab>
 </ClinicalProfile>
-	
