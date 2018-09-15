@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-74-diagnoses"/>
@@ -95,7 +94,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="64"/> 
@@ -235,7 +234,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J21.0"/> 
-				<display value="RSV &#x28;acute bronchiolitis due to respiratory syncytial virus&#x29;"/> 
+				<display value="RSV (acute bronchiolitis due to respiratory syncytial virus)"/> 
 			</coding> 
 		</code> 
 		<count value="35"/> 
@@ -335,7 +334,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.51"/> 
-				<display value="Failure to thrive &#x28;0-17&#x29;"/> 
+				<display value="Failure to thrive (0-17)"/> 
 			</coding> 
 		</code> 
 		<count value="24"/> 
@@ -445,7 +444,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z96.22"/> 
-				<display value="S&#x2f;P myringotomy with insertion of tube"/> 
+				<display value="S/P myringotomy with insertion of tube"/> 
 			</coding> 
 		</code> 
 		<count value="17"/> 
@@ -635,7 +634,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="12"/> 
@@ -725,7 +724,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Q65.89"/> 
-				<display value="DDH &#x28;developmental dysplasia of the hip&#x29;"/> 
+				<display value="DDH (developmental dysplasia of the hip)"/> 
 			</coding> 
 		</code> 
 		<count value="11"/> 
@@ -801,4 +800,3 @@
 		<count value="10"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

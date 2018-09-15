@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-eds-profile-19-diagnoses"/>
@@ -34,98 +33,38 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J45.909"/> 
-				<display value="Unspecified asthma&#x28;493.90&#x29;"/> 
+				<code value="Q79.6"/> 
+				<display value="Ehlers-Danlos syndrome"/> 
 			</coding> 
 		</code> 
-		<count value="128"/> 
+		<count value="168"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z00.00"/> 
-				<display value="Routine general medical examination at a health care facility"/> 
+				<code value="R00.0"/> 
+				<display value="POTS (postural orthostatic tachycardia syndrome)"/> 
 			</coding> 
 		</code> 
-		<count value="106"/> 
+		<count value="65"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I10"/> 
-				<display value="Essential hypertension, benign"/> 
+				<code value="I95.1"/> 
+				<display value="POTS (postural orthostatic tachycardia syndrome)"/> 
 			</coding> 
 		</code> 
-		<count value="95"/> 
+		<count value="61"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J30.9"/> 
-				<display value="Allergic rhinitis, unspecified allergic rhinitis type"/> 
-			</coding> 
-		</code> 
-		<count value="60"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K21.9"/> 
-				<display value="Esophageal reflux"/> 
-			</coding> 
-		</code> 
-		<count value="54"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E11.9"/> 
-				<display value="Type 2 diabetes mellitus without complication"/> 
-			</coding> 
-		</code> 
-		<count value="42"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F32.9"/> 
-				<display value="Major depressive disorder"/> 
-			</coding> 
-		</code> 
-		<count value="40"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E66.9"/> 
-				<display value="Obesity, unspecified"/> 
-			</coding> 
-		</code> 
-		<count value="37"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J45.20"/> 
-				<display value="Mild intermittent asthma"/> 
-			</coding> 
-		</code> 
-		<count value="36"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E55.9"/> 
-				<display value="Vitamin D deficiency"/> 
+				<code value="R51"/> 
+				<display value="Pressure in head"/> 
 			</coding> 
 		</code> 
 		<count value="34"/> 
@@ -134,41 +73,21 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D64.9"/> 
-				<display value="Anemia"/> 
+				<code value="M24.80"/> 
+				<display value="Generalized hypermobility of joints"/> 
 			</coding> 
 		</code> 
-		<count value="31"/> 
+		<count value="26"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E03.9"/> 
-				<display value="Hypothyroidism, unspecified type"/> 
+				<code value="K21.9"/> 
+				<display value="GERD (gastroesophageal reflux disease)"/> 
 			</coding> 
 		</code> 
-		<count value="31"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E78.00"/> 
-				<display value="High cholesterol"/> 
-			</coding> 
-		</code> 
-		<count value="28"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="IMO0002"/> 
-				<display value="Hemorrhage complicating a procedure"/> 
-			</coding> 
-		</code> 
-		<count value="27"/> 
+		<count value="26"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -184,8 +103,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E78.5"/> 
-				<display value="Hyperlipidemia"/> 
+				<code value="R10.9"/> 
+				<display value="Abdominal pain, other specified site"/> 
 			</coding> 
 		</code> 
 		<count value="23"/> 
@@ -194,151 +113,11 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F17.200"/> 
-				<display value="Tobacco use disorder"/> 
+				<code value="F32.9"/> 
+				<display value="Depression"/> 
 			</coding> 
 		</code> 
-		<count value="20"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M54.9"/> 
-				<display value="Back pain"/> 
-			</coding> 
-		</code> 
-		<count value="20"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z98.890"/> 
-				<display value="Other postprocedural status&#x28;V45.89&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="20"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J45.30"/> 
-				<display value="Asthma, mild persistent, uncomplicated"/> 
-			</coding> 
-		</code> 
-		<count value="19"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M54.5"/> 
-				<display value="Low back pain"/> 
-			</coding> 
-		</code> 
-		<count value="19"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M19.90"/> 
-				<display value="Inflammatory arthritis"/> 
-			</coding> 
-		</code> 
-		<count value="18"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G47.33"/> 
-				<display value="Obstructive apnea"/> 
-			</coding> 
-		</code> 
-		<count value="17"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J30.1"/> 
-				<display value="Allergic rhinitis due to pollen"/> 
-			</coding> 
-		</code> 
-		<count value="17"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E66.01"/> 
-				<display value="Severe obesity &#x28;BMI &#x3e;&#x3d; 40&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="17"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R05"/> 
-				<display value="Post-viral cough syndrome"/> 
-			</coding> 
-		</code> 
-		<count value="16"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R10.9"/> 
-				<display value="Abdominal pain"/> 
-			</coding> 
-		</code> 
-		<count value="16"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E78.2"/> 
-				<display value="Mixed hyperlipidemia"/> 
-			</coding> 
-		</code> 
-		<count value="16"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H52.4"/> 
-				<display value="Presbyopia"/> 
-			</coding> 
-		</code> 
-		<count value="16"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z01.818"/> 
-				<display value="Preoperative examination, unspecified"/> 
-			</coding> 
-		</code> 
-		<count value="15"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="15"/> 
+		<count value="22"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -348,117 +127,7 @@
 				<display value="Anxiety"/> 
 			</coding> 
 		</code> 
-		<count value="15"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G56.00"/> 
-				<display value="Carpal tunnel syndrome"/> 
-			</coding> 
-		</code> 
-		<count value="15"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B20"/> 
-				<display value="HIV infection"/> 
-			</coding> 
-		</code> 
-		<count value="15"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I25.10"/> 
-				<display value="CAD in native artery"/> 
-			</coding> 
-		</code> 
-		<count value="14"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z72.0"/> 
-				<display value="Tobacco abuse"/> 
-			</coding> 
-		</code> 
-		<count value="14"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H26.9"/> 
-				<display value="Cataract of both eyes"/> 
-			</coding> 
-		</code> 
-		<count value="13"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="13"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M81.0"/> 
-				<display value="Osteoporosis"/> 
-			</coding> 
-		</code> 
-		<count value="12"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R07.9"/> 
-				<display value="Chest pain, unspecified type"/> 
-			</coding> 
-		</code> 
-		<count value="12"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R60.9"/> 
-				<display value="Edema"/> 
-			</coding> 
-		</code> 
-		<count value="12"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z79.01"/> 
-				<display value="Long term &#x28;current&#x29; use of anticoagulants"/> 
-			</coding> 
-		</code> 
-		<count value="12"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J44.9"/> 
-				<display value="COPD &#x28;chronic obstructive pulmonary disease&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="12"/> 
+		<count value="21"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -468,57 +137,47 @@
 				<display value="Constipation"/> 
 			</coding> 
 		</code> 
-		<count value="12"/> 
+		<count value="21"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G62.9"/> 
-				<display value="Peripheral neuropathy"/> 
+				<code value="J30.9"/> 
+				<display value="Allergic rhinitis, cause unspecified"/> 
 			</coding> 
 		</code> 
-		<count value="12"/> 
+		<count value="19"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F31.9"/> 
-				<display value="Bipolar disorder"/> 
+				<code value="J45.909"/> 
+				<display value="Asthma"/> 
 			</coding> 
 		</code> 
-		<count value="12"/> 
+		<count value="19"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z79.899"/> 
-				<display value="Immunosuppressed due to chemotherapy"/> 
+				<code value="G43.909"/> 
+				<display value="Migraine"/> 
 			</coding> 
 		</code> 
-		<count value="12"/> 
+		<count value="18"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.569"/> 
-				<display value="Pain in joint, lower leg"/> 
+				<code value="G90.9"/> 
+				<display value="Autonomic dysfunction"/> 
 			</coding> 
 		</code> 
-		<count value="12"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M54.2"/> 
-				<display value="Cervicalgia"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
+		<count value="17"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -528,297 +187,167 @@
 				<display value="Routine infant or child health check"/> 
 			</coding> 
 		</code> 
-		<count value="11"/> 
+		<count value="16"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J18.9"/> 
-				<display value="Pneumonia, organism unspecified&#x28;486&#x29;"/> 
+				<code value="M25.50"/> 
+				<display value="Joint pain"/> 
 			</coding> 
 		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J45.40"/> 
-				<display value="Moderate persistent asthma without complication"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z90.710"/> 
-				<display value="Acquired absence of both cervix and uterus"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H04.123"/> 
-				<display value="Dry eyes, bilateral"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H91.90"/> 
-				<display value="Hearing loss"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R21"/> 
-				<display value="Rash"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M17.0"/> 
-				<display value="Osteoarthritis of both knees"/> 
-			</coding> 
-		</code> 
-		<count value="11"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z96.1"/> 
-				<display value="Pseudophakia"/> 
-			</coding> 
-		</code> 
-		<count value="10"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R53.83"/> 
-				<display value="Fatigue"/> 
-			</coding> 
-		</code> 
-		<count value="10"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R73.01"/> 
-				<display value="Fasting hyperglycemia"/> 
-			</coding> 
-		</code> 
-		<count value="10"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G47.30"/> 
-				<display value="Sleep apnea"/> 
-			</coding> 
-		</code> 
-		<count value="10"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R92.8"/> 
-				<display value="Abnormal mammogram of left breast"/> 
-			</coding> 
-		</code> 
-		<count value="10"/> 
+		<count value="15"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R42"/> 
-				<display value="Vertigo"/> 
+				<display value="Dizziness"/> 
 			</coding> 
 		</code> 
-		<count value="10"/> 
+		<count value="15"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M17.10"/> 
-				<display value="Knee osteoarthritis"/> 
+				<code value="H51.11"/> 
+				<display value="Convergence insufficiency"/> 
 			</coding> 
 		</code> 
-		<count value="10"/> 
+		<count value="14"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L70.8"/> 
-				<display value="Other acne"/> 
+				<code value="G43.009"/> 
+				<display value="Migraine without aura"/> 
 			</coding> 
 		</code> 
-		<count value="10"/> 
+		<count value="13"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R03.0"/> 
-				<display value="Elevated blood pressure reading without diagnosis of hypertension"/> 
+				<code value="F90.9"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="13"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R06.02"/> 
-				<display value="Shortness of breath"/> 
+				<code value="M54.81"/> 
+				<display value="Bilateral occipital neuralgia"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="13"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J30.2"/> 
-				<display value="Seasonal allergies"/> 
+				<code value="R53.82"/> 
+				<display value="Chronic fatigue syndrome"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="12"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I26.99"/> 
-				<display value="Pulmonary embolism"/> 
+				<code value="F98.8"/> 
+				<display value="ADD (attention deficit disorder)"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="12"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F19.10"/> 
-				<display value="Polysubstance abuse"/> 
+				<code value="G54.0"/> 
+				<display value="Neurogenic thoracic outlet syndrome"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="12"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E04.1"/> 
-				<display value="Thyroid nodule"/> 
+				<code value="G93.5"/> 
+				<display value="Arnold-Chiari malformation, type I"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="12"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D25.9"/> 
-				<display value="Leiomyoma of uterus, unspecified"/> 
+				<code value="H52.10"/> 
+				<display value="Myopia with astigmatism"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G47.00"/> 
-				<display value="Insomnia"/> 
+				<code value="J45.20"/> 
+				<display value="Asthma, mild intermittent"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G25.81"/> 
-				<display value="Restless leg syndrome"/> 
+				<code value="K31.84"/> 
+				<display value="Gastroparesis"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L30.9"/> 
-				<display value="Eczema, unspecified type"/> 
+				<code value="G43.709"/> 
+				<display value="Chronic migraine without aura"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z01.419"/> 
-				<display value="Routine gynecological examination"/> 
+				<code value="E55.9"/> 
+				<display value="Vitamin D deficiency"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z86.19"/> 
-				<display value="Frequent infections"/> 
+				<code value="R11.0"/> 
+				<display value="Chronic nausea"/> 
 			</coding> 
 		</code> 
-		<count value="9"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M48.061"/> 
-				<display value="Lumbar stenosis without neurogenic claudication"/> 
-			</coding> 
-		</code> 
-		<count value="9"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M79.609"/> 
-				<display value="Pain in limb"/> 
-			</coding> 
-		</code> 
-		<count value="8"/> 
+		<count value="11"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -828,14 +357,74 @@
 				<display value="Dysmenorrhea"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="10"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z87.898"/> 
-				<display value="History of chest pain"/> 
+				<code value="G89.4"/> 
+				<display value="Chronic pain disorder"/> 
+			</coding> 
+		</code> 
+		<count value="10"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="F41.1"/> 
+				<display value="Anxiety state"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R55"/> 
+				<display value="Vasovagal syncope"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R63.4"/> 
+				<display value="Weight loss"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M41.9"/> 
+				<display value="Scoliosis"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="N39.0"/> 
+				<display value="Recurrent UTI"/> 
+			</coding> 
+		</code> 
+		<count value="9"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R10.84"/> 
+				<display value="Abdominal pain, generalized"/> 
 			</coding> 
 		</code> 
 		<count value="8"/> 
@@ -844,91 +433,221 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R73.9"/> 
-				<display value="Hyperglycemia"/> 
+				<code value="R11.2"/> 
+				<display value="Non-intractable vomiting with nausea, unspecified vomiting type"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H52.203"/> 
-				<display value="Myopia with astigmatism and presbyopia, bilateral"/> 
+				<code value="R10.13"/> 
+				<display value="Epigastric abdominal pain"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I50.9"/> 
-				<display value="Acute heart failure, unspecified heart failure type"/> 
+				<code value="M24.9"/> 
+				<display value="Hypermobility of joint"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J02.9"/> 
-				<display value="Acute pharyngitis"/> 
+				<code value="L70.9"/> 
+				<display value="Acne"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E53.8"/> 
-				<display value="B12 deficiency"/> 
+				<code value="G43.109"/> 
+				<display value="Migraine with aura and without status migrainosus, not intractable"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D50.9"/> 
-				<display value="Iron deficiency anemia"/> 
+				<code value="H52.13"/> 
+				<display value="Myopia, bilateral"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E87.6"/> 
-				<display value="Hypokalemia"/> 
+				<code value="H55.89"/> 
+				<display value="Deficiencies of smooth pursuit movements"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G43.909"/> 
-				<display value="Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus"/> 
+				<code value="IMO0002"/> 
+				<display value="Glaucoma suspect with open angle"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H25.13"/> 
-				<display value="Nuclear sclerosis of both eyes"/> 
+				<code value="J30.1"/> 
+				<display value="Allergic rhinitis due to pollen"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z00.00"/> 
+				<display value="Routine general medical examination at a health care facility"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z91.018"/> 
+				<display value="History of food allergy"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z92.89"/> 
+				<display value="History of echocardiogram"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Z98.890"/> 
+				<display value="PONV (postoperative nausea and vomiting)"/> 
+			</coding> 
+		</code> 
+		<count value="7"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="T45.1X5A"/> 
+				<display value="Chemotherapy induced pulmonary toxicity"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="J30.2"/> 
+				<display value="Seasonal allergies"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="K90.49"/> 
+				<display value="Milk protein intolerance"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M54.5"/> 
+				<display value="Lumbar back pain"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="M35.7"/> 
+				<display value="Benign joint hypermobility"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R07.9"/> 
+				<display value="Chest pain"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="Q21.1"/> 
+				<display value="Ostium secundum type atrial septal defect"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="S06.0X9A"/> 
+				<display value="Concussion"/> 
+			</coding> 
+		</code> 
+		<count value="6"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="R53.83"/> 
+				<display value="Fatigue"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -938,227 +657,17 @@
 				<display value="Diarrhea"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R32"/> 
-				<display value="Unspecified urinary incontinence"/> 
+				<code value="M54.9"/> 
+				<display value="Backache, unspecified"/> 
 			</coding> 
 		</code> 
-		<count value="8"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M50.30"/> 
-				<display value="Degeneration of cervical intervertebral disc"/> 
-			</coding> 
-		</code> 
-		<count value="8"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.561"/> 
-				<display value="Right knee pain"/> 
-			</coding> 
-		</code> 
-		<count value="8"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.562"/> 
-				<display value="Knee joint pain, left"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M72.2"/> 
-				<display value="Plantar fascial fibromatosis"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N52.9"/> 
-				<display value="Erectile dysfunction"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M17.11"/> 
-				<display value="Primary osteoarthritis of right knee"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M10.9"/> 
-				<display value="Gout"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R63.4"/> 
-				<display value="Loss of weight"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R74.8"/> 
-				<display value="Elevated liver enzymes"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I87.2"/> 
-				<display value="Venous stasis dermatitis of right lower extremity"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K63.5"/> 
-				<display value="Colon polyps"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F10.10"/> 
-				<display value="Alcohol abuse, continuous"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F11.20"/> 
-				<display value="Opiate dependence, continuous"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B19.20"/> 
-				<display value="Hepatitis C"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J06.9"/> 
-				<display value="Viral upper respiratory tract infection"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L25.9"/> 
-				<display value="Contact dermatitis and other eczema, due to unspecified cause"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R76.8"/> 
-				<display value="Positive ANA &#x28;antinuclear antibody&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z30.09"/> 
-				<display value="Other general counseling and advice for contraceptive management"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z34.90"/> 
-				<display value="Pregnancy, obstetrical care, unspecified trimester"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z83.3"/> 
-				<display value="Family history of diabetes mellitus"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N76.0"/> 
-				<display value="Vaginitis and vulvovaginitis, unspecified"/> 
-			</coding> 
-		</code> 
-		<count value="7"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
@@ -1168,234 +677,84 @@
 				<display value="Menorrhagia with regular cycle"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N63.0"/> 
-				<display value="Subcutaneous nodule of breast"/> 
+				<code value="N92.6"/> 
+				<display value="Irregular menstrual cycle"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N18.6"/> 
-				<display value="CKD &#x28;chronic kidney disease&#x29; stage V requiring chronic dialysis"/> 
+				<code value="M79.7"/> 
+				<display value="Fibromyalgia"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M85.80"/> 
-				<display value="Osteopenia"/> 
+				<code value="K59.09"/> 
+				<display value="Other constipation"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z80.3"/> 
-				<display value="Family history of malignant neoplasm of breast"/> 
+				<code value="L30.9"/> 
+				<display value="Eczema"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R73.03"/> 
-				<display value="Prediabetes"/> 
+				<code value="L70.0"/> 
+				<display value="Cystic acne"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J45.901"/> 
-				<display value="Asthma exacerbation"/> 
+				<code value="I34.1"/> 
+				<display value="Mitral valve prolapse"/> 
 			</coding> 
 		</code> 
-		<count value="6"/> 
+		<count value="5"/> 
+	</diagnosis>
+	<diagnosis> 
+		<code> 
+			<coding> 
+				<system value="http://hl7.org/fhir/sid/icd-10"/>
+				<code value="I73.00"/> 
+				<display value="Raynaud's disease without gangrene"/> 
+			</coding> 
+		</code> 
+		<count value="5"/> 
 	</diagnosis>
 	<diagnosis> 
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J32.9"/> 
-				<display value="Chronic sinusitis"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J44.1"/> 
-				<display value="COPD exacerbation"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I48.91"/> 
-				<display value="Atrial fibrillation"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D12.6"/> 
-				<display value="Benign neoplasm of colon"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F41.1"/> 
-				<display value="Generalized anxiety disorder"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G40.909"/> 
-				<display value="Seizure disorder"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K64.9"/> 
-				<display value="Hemorrhoid"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I73.9"/> 
-				<display value="PVD &#x28;peripheral vascular disease&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H40.9"/> 
-				<display value="Glaucoma"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H52.7"/> 
-				<display value="Refractive error"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R53.81"/> 
-				<display value="Other malaise and fatigue"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R55"/> 
-				<display value="Syncope and collapse"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R20.9"/> 
-				<display value="Disturbance of skin sensation"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R87.810"/> 
-				<display value="Cervical high risk human papillomavirus &#x28;HPV&#x29; DNA test positive"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N20.0"/> 
-				<display value="Calculus of kidney"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N28.9"/> 
-				<display value="Mild renal insufficiency"/> 
-			</coding> 
-		</code> 
-		<count value="6"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N39.46"/> 
-				<display value="Urinary incontinence, mixed"/> 
+				<display value="Sinusitis"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1404,8 +763,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N18.3"/> 
-				<display value="Chronic kidney disease, stage III &#x28;moderate&#x29;"/> 
+				<code value="J45.990"/> 
+				<display value="Exercise-induced asthma"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1414,8 +773,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M67.40"/> 
-				<display value="Ganglion cyst"/> 
+				<code value="H53.9"/> 
+				<display value="Transient vision disturbance of both eyes"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1424,8 +783,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L98.9"/> 
-				<display value="Skin lesion of right arm"/> 
+				<code value="F07.81"/> 
+				<display value="Postconcussion syndrome"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1434,8 +793,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.519"/> 
-				<display value="Shoulder pain"/> 
+				<code value="E03.9"/> 
+				<display value="Hypothyroidism"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1444,8 +803,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R10.13"/> 
-				<display value="Dyspepsia and other specified disorders of function of stomach"/> 
+				<code value="T78.3XXA"/> 
+				<display value="Angioedema"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -1454,338 +813,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N91.2"/> 
-				<display value="Absence of menstruation"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I48.0"/> 
-				<display value="PAF &#x28;paroxysmal atrial fibrillation&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H52.13"/> 
-				<display value="Myopia of both eyes"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H52.209"/> 
-				<display value="Hyperopia with astigmatism and presbyopia"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J30.89"/> 
-				<display value="Chronic nonseasonal allergic rhinitis due to pollen"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K31.84"/> 
-				<display value="Gastroparesis due to DM"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K43.9"/> 
-				<display value="Ventral hernia"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H01.009"/> 
-				<display value="Seborrheic blepharitis"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E73.9"/> 
-				<display value="Lactose intolerance"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E87.5"/> 
-				<display value="Hyperkalemia"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E11.40"/> 
-				<display value="Diabetic neuropathy associated with type 2 diabetes mellitus"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B35.1"/> 
-				<display value="Dermatophytosis of nail"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="C61"/> 
-				<display value="Prostate cancer"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B02.9"/> 
-				<display value="Herpes zoster without mention of complication"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z87.19"/> 
-				<display value="History of esophageal stricture"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z86.73"/> 
-				<display value="History of stroke"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z91.018"/> 
-				<display value="Multiple food allergies"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B00.9"/> 
-				<display value="Herpes simplex without mention of complication"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D23.9"/> 
-				<display value="Benign neoplasm of skin, site unspecified"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F90.9"/> 
-				<display value="Attention deficit hyperactivity disorder &#x28;ADHD&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E66.09"/> 
-				<display value="Non morbid obesity due to excess calories"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H10.10"/> 
-				<display value="Allergic conjunctivitis and rhinitis"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I95.1"/> 
-				<display value="Orthostatic hypotension"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K76.0"/> 
-				<display value="Hepatic steatosis"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R97.20"/> 
-				<display value="Elevated PSA"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z78.9"/> 
-				<display value="Statin intolerance"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z86.79"/> 
-				<display value="Personal history of other diseases of circulatory system"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z87.891"/> 
-				<display value="Personal history of tobacco use, presenting hazards to health"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M15.9"/> 
-				<display value="Generalized osteoarthrosis, involving multiple sites"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.511"/> 
-				<display value="Acute pain of right shoulder"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R11.2"/> 
-				<display value="Nausea &#x26; vomiting"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R09.89"/> 
-				<display value="Other dyspnea and respiratory abnormality"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R06.09"/> 
-				<display value="DOE &#x28;dyspnea on exertion&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="5"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R09.02"/> 
-				<display value="Hypoxia"/> 
+				<code value="Z88.9"/> 
+				<display value="Drug allergy"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1794,8 +823,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R25.2"/> 
-				<display value="Cramp of limb"/> 
+				<code value="Z79.899"/> 
+				<display value="Long-term use of immunosuppressant medication"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1804,8 +833,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N64.4"/> 
-				<display value="Mastalgia in female"/> 
+				<code value="E28.2"/> 
+				<display value="Polycystic ovaries"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1814,8 +843,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N95.1"/> 
-				<display value="Symptomatic menopausal or female climacteric states"/> 
+				<code value="B07.9"/> 
+				<display value="Viral warts, unspecified type"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1824,8 +853,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M25.512"/> 
-				<display value="Acute pain of left shoulder"/> 
+				<code value="D68.0"/> 
+				<display value="Von Willebrand disease"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1834,8 +863,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M15.0"/> 
-				<display value="Primary osteoarthritis involving multiple joints"/> 
+				<code value="G47.00"/> 
+				<display value="Insomnia, unspecified"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1844,8 +873,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M41.20"/> 
-				<display value="Scoliosis &#x28;and kyphoscoliosis&#x29;, idiopathic"/> 
+				<code value="H53.8"/> 
+				<display value="Blurry vision, bilateral"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1854,8 +883,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N39.3"/> 
-				<display value="Urinary, incontinence, stress female"/> 
+				<code value="H52.03"/> 
+				<display value="Hyperopia, bilateral"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1864,8 +893,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z98.51"/> 
-				<display value="Tubal ligation status"/> 
+				<code value="H10.89"/> 
+				<display value="GPC (giant papillary conjunctivitis)"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1874,8 +903,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z91.19"/> 
-				<display value="Personal history of noncompliance with medical treatment, presenting hazards to health"/> 
+				<code value="I77.4"/> 
+				<display value="Celiac artery compression syndrome"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1884,8 +913,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z82.49"/> 
-				<display value="Family history of ischemic heart disease"/> 
+				<code value="J02.9"/> 
+				<display value="Acute pharyngitis"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1894,8 +923,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z86.69"/> 
-				<display value="History of subconjunctival hemorrhage"/> 
+				<code value="L50.9"/> 
+				<display value="Hives"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1904,8 +933,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R91.1"/> 
-				<display value="Pulmonary nodule"/> 
+				<code value="K90.41"/> 
+				<display value="Gluten intolerance"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1914,8 +943,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R41.82"/> 
-				<display value="Altered mental status, unspecified"/> 
+				<code value="M53.2X2"/> 
+				<display value="Cervical spine instability"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -1924,278 +953,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K58.9"/> 
-				<display value="Irritable bowel syndrome"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J31.0"/> 
-				<display value="Rhinitis medicamentosa"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J20.9"/> 
-				<display value="Bronchitis, acute"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K44.9"/> 
-				<display value="Hiatal hernia"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="I21.4"/> 
-				<display value="NSTEMI &#x28;non-ST elevated myocardial infarction&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H10.13"/> 
-				<display value="Allergic conjunctivitis of both eyes"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G60.9"/> 
-				<display value="Unspecified hereditary and idiopathic peripheral neuropathy"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H02.409"/> 
-				<display value="Unspecified ptosis of eyelid"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E78.1"/> 
-				<display value="Hypertriglyceridemia"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="E11.65"/> 
-				<display value="Diabetes mellitus type 2 with complications, uncontrolled"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z99.2"/> 
-				<display value="ESRD &#x28;end stage renal disease&#x29; on dialysis"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z87.59"/> 
-				<display value="Personal history of other genital system and obstetric disorders&#x28;V13.29&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="B18.2"/> 
-				<display value="Chronic hepatitis C without hepatic coma"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="A49.02"/> 
-				<display value="Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D22.9"/> 
-				<display value="Multiple nevi"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D32.9"/> 
-				<display value="Meningioma"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="D69.6"/> 
-				<display value="Thrombocytopenia"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="F43.10"/> 
-				<display value="PTSD &#x28;post-traumatic stress disorder&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G43.009"/> 
-				<display value="Migraine without aura, without mention of intractable migraine without mention of status migrainosus"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G56.03"/> 
-				<display value="Carpal tunnel syndrome, bilateral"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="G56.20"/> 
-				<display value="Ulnar nerve abnormality"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J98.4"/> 
-				<display value="Lung disease"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K57.30"/> 
-				<display value="Diverticulosis of large intestine without hemorrhage"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="J38.3"/> 
-				<display value="Vocal cord dysfunction"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="IMO0001"/> 
-				<display value="Adopted child"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H40.003"/> 
-				<display value="Glaucoma suspect of both eyes"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="H54.7"/> 
-				<display value="Decreased vision"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="N83.209"/> 
-				<display value="Other and unspecified ovarian cyst"/> 
+				<code value="M54.2"/> 
+				<display value="Neck pain"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -2214,8 +973,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R07.89"/> 
-				<display value="Atypical chest pain"/> 
+				<code value="R10.2"/> 
+				<display value="Pelvic pain in female"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -2224,8 +983,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R09.82"/> 
-				<display value="PND &#x28;post-nasal drip&#x29;"/> 
+				<code value="R00.2"/> 
+				<display value="Palpitations"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -2234,8 +993,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R20.0"/> 
-				<display value="Right leg numbness"/> 
+				<code value="R62.51"/> 
+				<display value="Failure to thrive (0-17)"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -2244,8 +1003,8 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R60.0"/> 
-				<display value="Localized edema"/> 
+				<code value="R40.4"/> 
+				<display value="Transient alteration of awareness"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -2254,141 +1013,10 @@
 		<code> 
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R74.0"/> 
-				<display value="Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase &#x28;LDH&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R00.0"/> 
-				<display value="Tachycardia"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="R94.31"/> 
-				<display value="Prolonged Q-T interval on ECG"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="T78.40XA"/> 
-				<display value="Allergy"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="T14.8XXA"/> 
-				<display value="Sprain and strain"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="Z12.31"/> 
-				<display value="Screening for breast cancer"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L65.9"/> 
-				<display value="Alopecia, unspecified"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M06.9"/> 
-				<display value="Rheumatoid arthritis&#x28;714.0&#x29;"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M17.12"/> 
-				<display value="Primary osteoarthritis of left knee"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L70.9"/> 
-				<display value="Acne"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="K92.2"/> 
-				<display value="Acute GI bleeding"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="L03.119"/> 
-				<display value="Cellulitis of lower extremity"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M47.816"/> 
-				<display value="Lumbar spondylosis"/> 
-			</coding> 
-		</code> 
-		<count value="4"/> 
-	</diagnosis>
-	<diagnosis> 
-		<code> 
-			<coding> 
-				<system value="http://hl7.org/fhir/sid/icd-10"/>
-				<code value="M51.26"/> 
-				<display value="Displacement of lumbar intervertebral disc without myelopathy"/> 
+				<code value="R76.8"/> 
+				<display value="Positive ANA (antinuclear antibody)"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

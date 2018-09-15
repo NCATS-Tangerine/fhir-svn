@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-33-diagnoses"/>
@@ -245,7 +244,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="1262"/> 
@@ -305,7 +304,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I25.10"/> 
-				<display value="CAD &#x28;coronary artery disease&#x29;"/> 
+				<display value="CAD (coronary artery disease)"/> 
 			</coding> 
 		</code> 
 		<count value="1034"/> 
@@ -345,7 +344,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N52.9"/> 
-				<display value="ED &#x28;erectile dysfunction&#x29;"/> 
+				<display value="ED (erectile dysfunction)"/> 
 			</coding> 
 		</code> 
 		<count value="1009"/> 
@@ -435,7 +434,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="797"/> 
@@ -455,7 +454,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="787"/> 
@@ -555,7 +554,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N40.0"/> 
-				<display value="Hypertrophy of prostate without urinary obstruction and other lower urinary tract symptoms &#x28;LUTS&#x29;"/> 
+				<display value="Hypertrophy of prostate without urinary obstruction and other lower urinary tract symptoms (LUTS)"/> 
 			</coding> 
 		</code> 
 		<count value="702"/> 
@@ -615,7 +614,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J44.9"/> 
-				<display value="COPD &#x28;chronic obstructive pulmonary disease&#x29;"/> 
+				<display value="COPD (chronic obstructive pulmonary disease)"/> 
 			</coding> 
 		</code> 
 		<count value="650"/> 
@@ -625,7 +624,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N40.1"/> 
-				<display value="Hypertrophy of prostate with urinary obstruction and other lower urinary tract symptoms &#x28;LUTS&#x29;"/> 
+				<display value="Hypertrophy of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS)"/> 
 			</coding> 
 		</code> 
 		<count value="643"/> 
@@ -825,7 +824,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.2"/> 
-				<display value="Attention deficit hyperactivity disorder &#x28;ADHD&#x29;, combined type"/> 
+				<display value="Attention deficit hyperactivity disorder (ADHD), combined type"/> 
 			</coding> 
 		</code> 
 		<count value="481"/> 
@@ -945,7 +944,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="433"/> 
@@ -1115,7 +1114,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="370"/> 
@@ -1171,4 +1170,3 @@
 		<count value="359"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

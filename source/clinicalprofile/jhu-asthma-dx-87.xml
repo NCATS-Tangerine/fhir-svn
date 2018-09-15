@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-87-diagnoses"/>
@@ -265,7 +264,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="478"/> 
@@ -445,7 +444,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J44.9"/> 
-				<display value="COPD &#x28;chronic obstructive pulmonary disease&#x29;"/> 
+				<display value="COPD (chronic obstructive pulmonary disease)"/> 
 			</coding> 
 		</code> 
 		<count value="337"/> 
@@ -735,7 +734,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="234"/> 
@@ -885,7 +884,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I25.10"/> 
-				<display value="CAD &#x28;coronary artery disease&#x29;"/> 
+				<display value="CAD (coronary artery disease)"/> 
 			</coding> 
 		</code> 
 		<count value="193"/> 
@@ -1105,7 +1104,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I50.9"/> 
-				<display value="CHF &#x28;congestive heart failure&#x29;"/> 
+				<display value="CHF (congestive heart failure)"/> 
 			</coding> 
 		</code> 
 		<count value="161"/> 
@@ -1315,7 +1314,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R76.8"/> 
-				<display value="Positive ANA &#x28;antinuclear antibody&#x29;"/> 
+				<display value="Positive ANA (antinuclear antibody)"/> 
 			</coding> 
 		</code> 
 		<count value="143"/> 
@@ -1345,7 +1344,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="139"/> 
@@ -1365,7 +1364,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R94.31"/> 
-				<display value="Nonspecific abnormal electrocardiogram &#x28;ECG&#x29; &#x28;EKG&#x29;"/> 
+				<display value="Nonspecific abnormal electrocardiogram (ECG) (EKG)"/> 
 			</coding> 
 		</code> 
 		<count value="139"/> 
@@ -1495,7 +1494,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K58.9"/> 
-				<display value="Irritable bowel syndrome &#x28;IBS&#x29;"/> 
+				<display value="Irritable bowel syndrome (IBS)"/> 
 			</coding> 
 		</code> 
 		<count value="127"/> 
@@ -1505,7 +1504,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z98.84"/> 
-				<display value="H&#x2f;O bariatric surgery"/> 
+				<display value="H/O bariatric surgery"/> 
 			</coding> 
 		</code> 
 		<count value="126"/> 
@@ -1595,7 +1594,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z11.51"/> 
-				<display value="Special screening examination for human papillomavirus &#x28;HPV&#x29;"/> 
+				<display value="Special screening examination for human papillomavirus (HPV)"/> 
 			</coding> 
 		</code> 
 		<count value="118"/> 
@@ -1705,7 +1704,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.79"/> 
-				<display value="S&#x2f;P TURP"/> 
+				<display value="S/P TURP"/> 
 			</coding> 
 		</code> 
 		<count value="111"/> 
@@ -2095,7 +2094,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z99.2"/> 
-				<display value="ESRD &#x28;end stage renal disease&#x29; on dialysis"/> 
+				<display value="ESRD (end stage renal disease) on dialysis"/> 
 			</coding> 
 		</code> 
 		<count value="92"/> 
@@ -2165,7 +2164,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z68.42"/> 
-				<display value="Class 3 obesity with serious comorbidity and body mass index &#x28;BMI&#x29; of 45.0 to 49.9 in adult"/> 
+				<display value="Class 3 obesity with serious comorbidity and body mass index (BMI) of 45.0 to 49.9 in adult"/> 
 			</coding> 
 		</code> 
 		<count value="90"/> 
@@ -2271,4 +2270,3 @@
 		<count value="87"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

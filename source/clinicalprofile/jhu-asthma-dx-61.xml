@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-61-diagnoses"/>
@@ -255,7 +254,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="5"/> 
@@ -355,7 +354,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="4"/> 
@@ -675,10 +674,9 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="3"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

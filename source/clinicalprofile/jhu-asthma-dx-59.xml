@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-59-diagnoses"/>
@@ -215,7 +214,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="39"/> 
@@ -245,7 +244,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="33"/> 
@@ -595,7 +594,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.52"/> 
-				<display value="Short stature &#x28;child&#x29;"/> 
+				<display value="Short stature (child)"/> 
 			</coding> 
 		</code> 
 		<count value="19"/> 
@@ -635,7 +634,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.2"/> 
-				<display value="Attention deficit hyperactivity disorder &#x28;ADHD&#x29;, combined type"/> 
+				<display value="Attention deficit hyperactivity disorder (ADHD), combined type"/> 
 			</coding> 
 		</code> 
 		<count value="18"/> 
@@ -705,7 +704,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.51"/> 
-				<display value="Failure to thrive &#x28;0-17&#x29;"/> 
+				<display value="Failure to thrive (0-17)"/> 
 			</coding> 
 		</code> 
 		<count value="16"/> 
@@ -715,7 +714,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="16"/> 
@@ -755,7 +754,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="14"/> 
@@ -771,4 +770,3 @@
 		<count value="14"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

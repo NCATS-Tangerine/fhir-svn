@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-45-diagnoses"/>
@@ -115,7 +114,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="48"/> 
@@ -405,7 +404,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="14"/> 
@@ -425,7 +424,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="14"/> 
@@ -535,7 +534,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="12"/> 
@@ -655,7 +654,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J30.81"/> 
-				<display value="Allergic rhinitis due to animal &#x28;cat&#x29; &#x28;dog&#x29; hair and dander"/> 
+				<display value="Allergic rhinitis due to animal (cat) (dog) hair and dander"/> 
 			</coding> 
 		</code> 
 		<count value="10"/> 
@@ -675,7 +674,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R76.8"/> 
-				<display value="Positive ANA &#x28;antinuclear antibody&#x29;"/> 
+				<display value="Positive ANA (antinuclear antibody)"/> 
 			</coding> 
 		</code> 
 		<count value="10"/> 
@@ -821,4 +820,3 @@
 		<count value="9"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

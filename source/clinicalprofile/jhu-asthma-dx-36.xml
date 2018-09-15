@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-36-diagnoses"/>
@@ -75,7 +74,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="310"/> 
@@ -205,7 +204,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="128"/> 
@@ -495,7 +494,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H66.90"/> 
-				<display value="RAOM &#x28;recurrent acute otitis media&#x29;"/> 
+				<display value="RAOM (recurrent acute otitis media)"/> 
 			</coding> 
 		</code> 
 		<count value="60"/> 
@@ -545,7 +544,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="55"/> 
@@ -655,7 +654,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.2"/> 
-				<display value="Attention deficit hyperactivity disorder &#x28;ADHD&#x29;, combined type"/> 
+				<display value="Attention deficit hyperactivity disorder (ADHD), combined type"/> 
 			</coding> 
 		</code> 
 		<count value="49"/> 
@@ -695,7 +694,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M21.40"/> 
-				<display value="Flat foot&#x28;734&#x29;"/> 
+				<display value="Flat foot(734)"/> 
 			</coding> 
 		</code> 
 		<count value="45"/> 
@@ -815,7 +814,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R62.52"/> 
-				<display value="Short stature &#x28;child&#x29;"/> 
+				<display value="Short stature (child)"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -935,7 +934,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="35"/> 
@@ -1041,4 +1040,3 @@
 		<count value="33"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

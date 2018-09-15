@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-85-diagnoses"/>
@@ -145,7 +144,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="123"/> 
@@ -195,7 +194,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="109"/> 
@@ -435,7 +434,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="57"/> 
@@ -795,7 +794,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R87.610"/> 
-				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix &#x28;ASC-US&#x29;"/> 
+				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US)"/> 
 			</coding> 
 		</code> 
 		<count value="34"/> 
@@ -1095,7 +1094,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R87.810"/> 
-				<display value="Cervical high risk HPV &#x28;human papillomavirus&#x29; test positive"/> 
+				<display value="Cervical high risk HPV (human papillomavirus) test positive"/> 
 			</coding> 
 		</code> 
 		<count value="26"/> 
@@ -1345,7 +1344,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M41.20"/> 
-				<display value="Scoliosis &#x28;and kyphoscoliosis&#x29;, idiopathic"/> 
+				<display value="Scoliosis (and kyphoscoliosis), idiopathic"/> 
 			</coding> 
 		</code> 
 		<count value="22"/> 
@@ -1525,7 +1524,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="19"/> 
@@ -1621,4 +1620,3 @@
 		<count value="19"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

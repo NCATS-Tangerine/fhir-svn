@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-48-diagnoses"/>
@@ -85,7 +84,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I25.10"/> 
-				<display value="CAD &#x28;coronary artery disease&#x29;"/> 
+				<display value="CAD (coronary artery disease)"/> 
 			</coding> 
 		</code> 
 		<count value="518"/> 
@@ -145,7 +144,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N40.0"/> 
-				<display value="Hypertrophy of prostate without urinary obstruction and other lower urinary tract symptoms &#x28;LUTS&#x29;"/> 
+				<display value="Hypertrophy of prostate without urinary obstruction and other lower urinary tract symptoms (LUTS)"/> 
 			</coding> 
 		</code> 
 		<count value="291"/> 
@@ -155,7 +154,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N40.1"/> 
-				<display value="Hypertrophy of prostate with urinary obstruction and other lower urinary tract symptoms &#x28;LUTS&#x29;"/> 
+				<display value="Hypertrophy of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS)"/> 
 			</coding> 
 		</code> 
 		<count value="271"/> 
@@ -175,7 +174,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="J44.9"/> 
-				<display value="COPD &#x28;chronic obstructive pulmonary disease&#x29;"/> 
+				<display value="COPD (chronic obstructive pulmonary disease)"/> 
 			</coding> 
 		</code> 
 		<count value="225"/> 
@@ -255,7 +254,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N52.9"/> 
-				<display value="ED &#x28;erectile dysfunction&#x29;"/> 
+				<display value="ED (erectile dysfunction)"/> 
 			</coding> 
 		</code> 
 		<count value="194"/> 
@@ -385,7 +384,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N13.8"/> 
-				<display value="BPH &#x28;benign prostatic hypertrophy&#x29; with urinary obstruction"/> 
+				<display value="BPH (benign prostatic hypertrophy) with urinary obstruction"/> 
 			</coding> 
 		</code> 
 		<count value="131"/> 
@@ -495,7 +494,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R97.20"/> 
-				<display value="Increased prostate specific antigen &#x28;PSA&#x29; velocity"/> 
+				<display value="Increased prostate specific antigen (PSA) velocity"/> 
 			</coding> 
 		</code> 
 		<count value="111"/> 
@@ -565,7 +564,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="L57.0"/> 
-				<display value="AK &#x28;actinic keratosis&#x29;"/> 
+				<display value="AK (actinic keratosis)"/> 
 			</coding> 
 		</code> 
 		<count value="104"/> 
@@ -715,7 +714,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z95.1"/> 
-				<display value="S&#x2f;P CABG &#x28;coronary artery bypass graft&#x29;"/> 
+				<display value="S/P CABG (coronary artery bypass graft)"/> 
 			</coding> 
 		</code> 
 		<count value="79"/> 
@@ -745,7 +744,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I50.9"/> 
-				<display value="CHF &#x28;congestive heart failure&#x29;"/> 
+				<display value="CHF (congestive heart failure)"/> 
 			</coding> 
 		</code> 
 		<count value="74"/> 
@@ -885,7 +884,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K57.30"/> 
-				<display value="Diverticulosis of colon &#x28;without mention of hemorrhage&#x29;"/> 
+				<display value="Diverticulosis of colon (without mention of hemorrhage)"/> 
 			</coding> 
 		</code> 
 		<count value="64"/> 
@@ -1055,7 +1054,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="57"/> 
@@ -1095,7 +1094,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K22.70"/> 
-				<display value="Barrett&#x27;s esophagus"/> 
+				<display value="Barrett's esophagus"/> 
 			</coding> 
 		</code> 
 		<count value="57"/> 
@@ -1225,7 +1224,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z85.46"/> 
-				<display value="H&#x2f;O prostate cancer"/> 
+				<display value="H/O prostate cancer"/> 
 			</coding> 
 		</code> 
 		<count value="53"/> 
@@ -1395,7 +1394,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I49.3"/> 
-				<display value="PVC&#x27;s &#x28;premature ventricular contractions&#x29;"/> 
+				<display value="PVC's (premature ventricular contractions)"/> 
 			</coding> 
 		</code> 
 		<count value="47"/> 
@@ -1445,7 +1444,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z85.828"/> 
-				<display value="H&#x2f;O squamous cell carcinoma of skin"/> 
+				<display value="H/O squamous cell carcinoma of skin"/> 
 			</coding> 
 		</code> 
 		<count value="45"/> 
@@ -1555,7 +1554,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="G20"/> 
-				<display value="Dementia in Parkinson&#x27;s disease"/> 
+				<display value="Dementia in Parkinson's disease"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -1565,7 +1564,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F02.80"/> 
-				<display value="Dementia in Parkinson&#x27;s disease"/> 
+				<display value="Dementia in Parkinson's disease"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -1575,7 +1574,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="40"/> 
@@ -1635,7 +1634,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R94.31"/> 
-				<display value="Nonspecific abnormal electrocardiogram &#x28;ECG&#x29; &#x28;EKG&#x29;"/> 
+				<display value="Nonspecific abnormal electrocardiogram (ECG) (EKG)"/> 
 			</coding> 
 		</code> 
 		<count value="38"/> 
@@ -1715,7 +1714,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M50.30"/> 
-				<display value="DDD &#x28;degenerative disc disease&#x29;, cervical"/> 
+				<display value="DDD (degenerative disc disease), cervical"/> 
 			</coding> 
 		</code> 
 		<count value="37"/> 
@@ -1725,7 +1724,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z90.89"/> 
-				<display value="S&#x2f;P tonsillectomy and adenoidectomy"/> 
+				<display value="S/P tonsillectomy and adenoidectomy"/> 
 			</coding> 
 		</code> 
 		<count value="36"/> 
@@ -1825,7 +1824,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R74.0"/> 
-				<display value="Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase &#x28;LDH&#x29;"/> 
+				<display value="Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase (LDH)"/> 
 			</coding> 
 		</code> 
 		<count value="35"/> 
@@ -1955,7 +1954,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="Z91.89"/> 
-				<display value="H&#x2f;O multiple allergies"/> 
+				<display value="H/O multiple allergies"/> 
 			</coding> 
 		</code> 
 		<count value="32"/> 
@@ -2105,7 +2104,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N18.4"/> 
-				<display value="Chronic kidney disease, stage IV &#x28;severe&#x29;"/> 
+				<display value="Chronic kidney disease, stage IV (severe)"/> 
 			</coding> 
 		</code> 
 		<count value="31"/> 
@@ -2305,7 +2304,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="I47.2"/> 
-				<display value="Ventricular tachycardia &#x28;paroxysmal&#x29;"/> 
+				<display value="Ventricular tachycardia (paroxysmal)"/> 
 			</coding> 
 		</code> 
 		<count value="29"/> 
@@ -2405,7 +2404,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="E66.09"/> 
-				<display value="Obesity due to excess calories without serious comorbidity with body mass index &#x28;BMI&#x29; greater than 99th percentile for age in pediatric patient"/> 
+				<display value="Obesity due to excess calories without serious comorbidity with body mass index (BMI) greater than 99th percentile for age in pediatric patient"/> 
 			</coding> 
 		</code> 
 		<count value="28"/> 
@@ -2515,7 +2514,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K58.9"/> 
-				<display value="Irritable bowel syndrome &#x28;IBS&#x29;"/> 
+				<display value="Irritable bowel syndrome (IBS)"/> 
 			</coding> 
 		</code> 
 		<count value="27"/> 
@@ -2535,7 +2534,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="H18.51"/> 
-				<display value="Fuchs&#x27; corneal dystrophy"/> 
+				<display value="Fuchs' corneal dystrophy"/> 
 			</coding> 
 		</code> 
 		<count value="27"/> 
@@ -2561,4 +2560,3 @@
 		<count value="27"/> 
 	</diagnosis>
 </ClinicalProfile>
-	

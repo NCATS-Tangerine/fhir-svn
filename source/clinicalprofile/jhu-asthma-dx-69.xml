@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ClinicalProfile xmlns="http://hl7.org/fhir">
+<?xml version="1.0" ?><ClinicalProfile xmlns="http://hl7.org/fhir">
 	<!--  from Resource: id, meta, implicitRules, and language  -->
 	<!--  from DomainResource: text, contained, extension, and modifierExtension  -->
 	<id value="jhu-asthma-profile-69-diagnoses"/>
@@ -165,7 +164,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R51"/> 
-				<display value="Headache&#x28;784.0&#x29;"/> 
+				<display value="Headache(784.0)"/> 
 			</coding> 
 		</code> 
 		<count value="187"/> 
@@ -175,7 +174,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="N39.0"/> 
-				<display value="UTI &#x28;lower urinary tract infection&#x29;"/> 
+				<display value="UTI (lower urinary tract infection)"/> 
 			</coding> 
 		</code> 
 		<count value="180"/> 
@@ -335,7 +334,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="F90.9"/> 
-				<display value="ADHD &#x28;attention deficit hyperactivity disorder&#x29;"/> 
+				<display value="ADHD (attention deficit hyperactivity disorder)"/> 
 			</coding> 
 		</code> 
 		<count value="117"/> 
@@ -835,7 +834,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="R87.610"/> 
-				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix &#x28;ASC-US&#x29;"/> 
+				<display value="Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US)"/> 
 			</coding> 
 		</code> 
 		<count value="52"/> 
@@ -905,7 +904,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="M41.20"/> 
-				<display value="Scoliosis &#x28;and kyphoscoliosis&#x29;, idiopathic"/> 
+				<display value="Scoliosis (and kyphoscoliosis), idiopathic"/> 
 			</coding> 
 		</code> 
 		<count value="50"/> 
@@ -1335,7 +1334,7 @@
 			<coding> 
 				<system value="http://hl7.org/fhir/sid/icd-10"/>
 				<code value="K58.9"/> 
-				<display value="Irritable bowel syndrome &#x28;IBS&#x29;"/> 
+				<display value="Irritable bowel syndrome (IBS)"/> 
 			</coding> 
 		</code> 
 		<count value="37"/> 
@@ -1351,4 +1350,3 @@
 		<count value="37"/> 
 	</diagnosis>
 </ClinicalProfile>
-	
