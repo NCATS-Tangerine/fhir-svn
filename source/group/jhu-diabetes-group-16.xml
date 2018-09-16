@@ -21,10 +21,18 @@
 		<valueCodeableConcept>
 			<coding>
 				<system value="urn:oid:2.16.840.1.114222.4.11.836"/>
-				<code value="2054-5"/>
-				<display value="Native Hawaiian or Other Pacific Islander,Asian,Unknown,American Indian or Alaska Native,Other"/>
+				<code value="2106-3"/>
+				<display value="White or Caucasian"/>
 			</coding>
 		</valueCodeableConcept>
-		<exclude value="false"/>
+		<exclude value="true"/>
+		<valueCodeableConcept>
+			<coding>
+				<system value="urn:oid:2.16.840.1.114222.4.11.836"/>
+				<code value="2054-5"/>
+				<display value="Black or African American"/>
+			</coding>
+		</valueCodeableConcept>
+		<exclude value="true"/>
 	</characteristic>
 </Group>
