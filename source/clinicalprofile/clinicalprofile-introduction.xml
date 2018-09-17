@@ -1,54 +1,61 @@
 <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
 
-<div>
-<a name="bnc"></a>
-<h2>Scope and Usage</h2>
-    <h3>Motivations for a clinical profile registry</h3>
-    <p>Data science succeeds when broad domains of data can be explored to advance discovery, validation, or
-    knowledge application.  The NCATS Translator program seeks to demonstrate translational queries across linkable
-    databases spanning basic science repositories (e.g. gene, protein, pathway) to clinical manifestations
-    (e.g. phenotype, symptoms, drug response).  The nature of running translational queries requires overcoming
-    barriers to the use and access to such databases. Access to clinical information in particular is invariably a
-    challenge.  To address this problem in part, we posited creating a clinical profile registry as a surrogate data
-    resource to enable executing translational queries.</p>
-    <p>The vision for a clinical profile registry is to include clinical profiles that are machine readable and
-    consisting of aggregated statistics and facts about disease behavior derived from patient records. Profiles would
-    reduce patient-level, specific elements into statistical characterizations about a group of patients sharing
-    phenotype, disease, or other cohort defining properties.  For example, a fanconi anemia profile would include
-    summary information about serum hemoglobin levels  (e.g., mean, standard deviation, median value, and decile
-    cut-points of the distribution) across a group of patients with this condition.  It is also attractive to
-    consider demographic subsets of a clinical profile e.g., summary information about clinical profile measures by
-        race, sex, and age groups.</p>
 
-</div>
+    <div>
+        <a name="scope"></a>
+        <h2>Scope and Usage</h2>
+        <h3>Motivations for a clinical profile registry</h3>
+        <p>Data science thrives when practitioners have open access to data resources and information. In translational
+            science, this ideally spans basic science “omics” data to and including clinical data. However, clinical
+            data by its nature is sensitive and confidential, and can rarely be made freely available outside clinical
+            record systems and controlled research repositories. However, data about clinical data, such as statistical
+            summaries, frequencies, distributions, and relative counts does not contain any personal health information,
+            and when presented about aggregated persons cannot be re-identified. Such summaries comprise the core of
+            clinical profiles.
+        </p>
+        <p>The vision for a clinical profile registry is to include clinical profiles for diseases and phenotypically
+            similar cohorts that are machine readable and consisting of aggregated statistics and facts about disease
+            behavior derived from patient records. For example, a Fanconi anemia profile would include summary
+            information about serum hemoglobin levels (e.g., mean, standard deviation, median value, and decile
+            cut-points of the distribution) among other clinical variables and covariates across a group of patients
+            with this condition. It is also attractive to consider demographic subsets of a clinical profile e.g.,
+            summary information about clinical profile measures by race, sex, and age groups. Correspondingly, for
+            chronic and common conditions such as hypertension, profiles about cohorts of treated persons may be
+            separate from untreated persons. For conditions such as asthma, characteristics of persons in an acute
+            exacerbation would differ materially from those presently asymptomatic.
+        </p>
 
-<!-- (recommended): 
-<div>
-<h2>Boundaries and Relationships</h2>
-<p>
-Explains how this resource relates to others. Particularly important is to differentiate between appropriate usages for related resources when an implementer might be confused about what to reference when.
-</p>
-</div>
--->
+    </div>
 
-<div>
-<h2>Background and Context</h2>
-<h3>Clinical profile data model requirements</h3>
-<p>As an initial step to defining the model requirements for a clinical profile, we identify core data
-    (demographics, medications, common lab values, and coded information such as co-morbidities and procedures),
-    some condition-specific measures (e.g pulmonary function tests for patients for asthma) that are readily available
-    in electronic health records (EHR).  The transition from patient-level data into a clinical profile would require
-    reducing those data into to appropriate summary measures. For example, a comorbidity may be rendered in a
-    clinical profile as the fraction of persons in a population expressing that comorbidity.
-    Additionally, clinical profiles might express a degree of correlation between variables when they are significant,
-    such as hemoglobin and hematocrit.</p>
-<p>Temporal considerations have potential to greatly complicate requirements for clinical profiles.  As an achievable
-    goal, we can enable subsetting profiles into pre- and post- event (e.g., treatment, diagnosis) subsets.  Also
-    important for many conditions, is an ability to  define a clinical profile of persons suffering from acute
-    exacerbations vs relatively stable periods.</p>
-<p>Different research teams have been trying hard to generate shareable patient data in all health-related contexts,
-    like nursing, medical imaging and genomic fields these years(1).</p>
-</div>
+    <!-- (recommended):
+    <div>
+    <h2>Boundaries and Relationships</h2>
+    <p>
+    Explains how this resource relates to others. Particularly important is to differentiate between appropriate usages
+    for related resources when an implementer might be confused about what to reference when.
+    </p>
+    </div>
+    -->
+
+    <div>
+        <h2>Background and Context</h2>
+        <h3>Clinical profile data model requirements</h3>
+        <p>As an initial step to defining the model requirements for a clinical profile, we identify core data
+            (demographics, medications, common lab values, and coded information such as co-morbidities and procedures),
+            some condition-specific measures (e.g pulmonary function tests for patients for asthma) that are readily
+            available in electronic health records (EHR). The transition from patient-level data into a clinical profile
+            would require reducing those data into to appropriate summary measures. For example, a comorbidity may be
+            rendered in a clinical profile as the fraction of persons in a population expressing that comorbidity.
+            Additionally, clinical profiles might express a degree of correlation between variables when they are
+            significant, such as hemoglobin and hematocrit.
+        </p>
+        <p>To make such profiles useful to data scientists, they must be machine readable and conform to a published
+            model. The present Clinical Profile FHIR Resource definition poses an initial model for containing profiles
+            and relevant metadata. Each profile can be called with a FHIR API, and subsequently parsed using standard
+            FHIR renditions such as JSON, XML, and RDF. The model defines the elements, boundaries, and relationships
+            among the parsable data.
+        </p>
+    </div>
 
 
 </div>
