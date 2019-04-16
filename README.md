@@ -1,4 +1,6 @@
-
+# <span style="color:red">This project is no longer active.</span>  
+## Replaced by: [FHIR R5 Delta Image](https://github.com/NCATS-Tangerine/fhir)
+<span style="color:red">This project is scheduled to be deleted.</span>
 
 # ClinicalProfile branch of FHIR Publisher
 This repository carries a fork of the main FHIR Publisher build.  The ClinicalProfile branch contains the proposed
